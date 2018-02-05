@@ -1,0 +1,62 @@
+2018-02-04 15:13:38 INFO  GameRoomRunner:32 - Start program.
+2018-02-04 15:13:38 INFO  GameRoomDirector:36 - Try to create game room - Oz country..
+2018-02-04 15:13:38 INFO  GameRoomDirector:55 - Try to load data from file - ./src/main/resources/data.txt.
+2018-02-04 15:13:38 INFO  GameRoomDirector:64 - Data was loaded successful.
+2018-02-04 15:13:38 INFO  GameRoomDirector:67 - Try to create toy from parameters - type=BasketBallSet name=Ghetto_Wars price=45.0 numBallDiameter=25 numBasketHeight=200.
+2018-02-04 15:13:38 INFO  GameRoomDirector:78 - Toy was created successful - Toy name - Ghetto_Wars, price - 45,00, age limit - CHILD, size - 5000,0, type - SPORT. Required space to play - 2500. Is multi playing - Yes. Ball diameter = 25. Basket height = 200..
+2018-02-04 15:13:38 WARN  GameRoomDirector:88 - java.lang.IllegalArgumentException: Not enough resources for creating room.
+2018-02-04 15:13:38 INFO  GameRoomDirector:67 - Try to create toy from parameters - type=BasketBallSet name=Bad_boy price=60.0 numBallDiameter=10 numBasketHeight=220.
+2018-02-04 15:13:38 INFO  GameRoomDirector:78 - Toy was created successful - Toy name - Bad_boy, price - 60,00, age limit - CHILD, size - 2200,0, type - SPORT. Required space to play - 2500. Is multi playing - Yes. Ball diameter = 10. Basket height = 220..
+2018-02-04 15:13:38 INFO  GameRoomDirector:67 - Try to create toy from parameters - type=JumpRope price=20.x5 numLength=2.
+2018-02-04 15:13:38 WARN  GameRoomDirector:88 - by.epam.gameroom.exceptions.IncorrectValueException: Incorrect parameter was detected - price=20.x5.
+2018-02-04 15:13:38 INFO  GameRoomDirector:67 - Try to create toy from parameters - type=GameConsole name=Xbox360 price=45.0 size=25.0 isInternetAvailable=+.
+2018-02-04 15:13:38 INFO  GameRoomDirector:78 - Toy was created successful - Toy name - Xbox360, price - 45,00, age limit - TEENAGER, size - 25,0, type - ELECTRONIC. Operation voltage - 220. Power socket needed - Yes Can connect to Internet - Yes..
+2018-02-04 15:13:38 INFO  GameRoomDirector:67 - Try to create toy from parameters - type=GameConsole name=Dendi price=60.0 size=10.0 isInternetAvailable=-.
+2018-02-04 15:13:38 INFO  GameRoomDirector:78 - Toy was created successful - Toy name - Dendi, price - 60,00, age limit - TEENAGER, size - 10,0, type - ELECTRONIC. Operation voltage - 220. Power socket needed - Yes Can connect to Internet - No..
+2018-02-04 15:13:38 INFO  GameRoomDirector:67 - Try to create toy from parameters - type=JumpRope price=20.5 numLength=2.
+2018-02-04 15:13:38 INFO  GameRoomDirector:78 - Toy was created successful - Toy name - Jumping rope, price - 20,50, age limit - CHILD, size - 4,0, type - SPORT. Required space to play - 6. Is multi playing - No. Jumping rope length = 2..
+2018-02-04 15:13:38 INFO  GameRoomDirector:67 - Try to create toy from parameters - type=JumpRope price=22.5 numLength=3.
+2018-02-04 15:13:38 INFO  GameRoomDirector:78 - Toy was created successful - Toy name - Jumping rope, price - 22,50, age limit - CHILD, size - 6,0, type - SPORT. Required space to play - 9. Is multi playing - No. Jumping rope length = 3..
+2018-02-04 15:13:38 INFO  GameRoomDirector:67 - Try to create toy from parameters - type=Lego name=Pirates price=45.0 size=25.0 numCountOfToyMen=20 numCountOfPeaces=2000.
+2018-02-04 15:13:38 INFO  GameRoomDirector:78 - Toy was created successful - Toy name - Pirates, price - 45,00, age limit - CHILD, size - 25,0, type - EDUCATIONAL. Educational type - CONSTRUCTOR. Peaces = 2000, toy men count = 20.
+2018-02-04 15:13:38 INFO  GameRoomDirector:67 - Try to create toy from parameters - type=Lego name=Space_Wars price=55.0 size=200.0 numCountOfToyMen=200 numCountOfPeaces=20000.
+2018-02-04 15:13:38 INFO  GameRoomDirector:78 - Toy was created successful - Toy name - Space_Wars, price - 55,00, age limit - CHILD, size - 200,0, type - EDUCATIONAL. Educational type - CONSTRUCTOR. Peaces = 20000, toy men count = 200.
+2018-02-04 15:13:38 INFO  GameRoomDirector:67 - Try to create toy from parameters - type=RadioCar name=Police_Car price=45.0 size=25.0 numCountOfBatteries=2 numMaxSpeed=50.
+2018-02-04 15:13:38 INFO  GameRoomDirector:78 - Toy was created successful - Toy name - Police_Car, price - 45,00, age limit - PRE_TEEN, size - 25,0, type - ELECTRONIC. Operation voltage - 9. Power socket needed - No Max car speed - 50. Needed count of batteries - 2..
+2018-02-04 15:13:38 INFO  GameRoomDirector:67 - Try to create toy from parameters - type=GameConsole name=Dendi price=60.0 size=10.0.
+2018-02-04 15:13:38 WARN  GameRoomDirector:88 - by.epam.gameroom.exceptions.IncorrectValueException: Incorrect count of parameters. Need - 5, input - 4.
+2018-02-04 15:13:38 INFO  GameRoomDirector:67 - Try to create toy from parameters - type=RadioCar name=Robocop_Car price=60.0 size=10.5 numCountOfBatteries=6 numMaxSpeed=60.
+2018-02-04 15:13:38 INFO  GameRoomDirector:78 - Toy was created successful - Toy name - Robocop_Car, price - 60,00, age limit - PRE_TEEN, size - 10,5, type - ELECTRONIC. Operation voltage - 9. Power socket needed - No Max car speed - 60. Needed count of batteries - 6..
+2018-02-04 15:13:38 INFO  GameRoomDirector:67 - Try to create toy from parameters - type=RubikCube price=20.5 isAssembled=+.
+2018-02-04 15:13:38 INFO  GameRoomDirector:78 - Toy was created successful - Toy name - Rubik's cube, price - 20,50, age limit - CHILD, size - 185,0, type - EDUCATIONAL. Educational type - MATHEMATICAL., is Rubik's cube assembled? - Yes..
+2018-02-04 15:13:38 INFO  GameRoomDirector:67 - Try to create toy from parameters - type=RubikCube price=-20.5 isAssembled=+.
+2018-02-04 15:13:38 WARN  GameRoomDirector:88 - by.epam.gameroom.exceptions.IncorrectValueException: Incorrect parameter was detected - price=-20.5.
+2018-02-04 15:13:38 INFO  GameRoomDirector:67 - Try to create toy from parameters - type=RubikCube price=25.5 isAssembled=+.
+2018-02-04 15:13:38 INFO  GameRoomDirector:78 - Toy was created successful - Toy name - Rubik's cube, price - 25,50, age limit - CHILD, size - 185,0, type - EDUCATIONAL. Educational type - MATHEMATICAL., is Rubik's cube assembled? - Yes..
+2018-02-04 15:13:38 INFO  GameRoomDirector:46 - Room was created successful.
+2018-02-04 15:13:38 INFO  GameRoomRunner:44 - Toys in room : 
+2018-02-04 15:13:38 INFO  GameRoomRunner:64 - Toy name - Bad_boy, price - 60,00, age limit - CHILD, size - 2200,0, type - SPORT. Required space to play - 2500. Is multi playing - Yes. Ball diameter = 10. Basket height = 220.
+2018-02-04 15:13:38 INFO  GameRoomRunner:64 - Toy name - Xbox360, price - 45,00, age limit - TEENAGER, size - 25,0, type - ELECTRONIC. Operation voltage - 220. Power socket needed - Yes Can connect to Internet - Yes.
+2018-02-04 15:13:38 INFO  GameRoomRunner:64 - Toy name - Dendi, price - 60,00, age limit - TEENAGER, size - 10,0, type - ELECTRONIC. Operation voltage - 220. Power socket needed - Yes Can connect to Internet - No.
+2018-02-04 15:13:38 INFO  GameRoomRunner:64 - Toy name - Jumping rope, price - 20,50, age limit - CHILD, size - 4,0, type - SPORT. Required space to play - 6. Is multi playing - No. Jumping rope length = 2.
+2018-02-04 15:13:38 INFO  GameRoomRunner:64 - Toy name - Jumping rope, price - 22,50, age limit - CHILD, size - 6,0, type - SPORT. Required space to play - 9. Is multi playing - No. Jumping rope length = 3.
+2018-02-04 15:13:38 INFO  GameRoomRunner:64 - Toy name - Pirates, price - 45,00, age limit - CHILD, size - 25,0, type - EDUCATIONAL. Educational type - CONSTRUCTOR. Peaces = 2000, toy men count = 20
+2018-02-04 15:13:38 INFO  GameRoomRunner:64 - Toy name - Space_Wars, price - 55,00, age limit - CHILD, size - 200,0, type - EDUCATIONAL. Educational type - CONSTRUCTOR. Peaces = 20000, toy men count = 200
+2018-02-04 15:13:38 INFO  GameRoomRunner:64 - Toy name - Police_Car, price - 45,00, age limit - PRE_TEEN, size - 25,0, type - ELECTRONIC. Operation voltage - 9. Power socket needed - No Max car speed - 50. Needed count of batteries - 2.
+2018-02-04 15:13:38 INFO  GameRoomRunner:64 - Toy name - Robocop_Car, price - 60,00, age limit - PRE_TEEN, size - 10,5, type - ELECTRONIC. Operation voltage - 9. Power socket needed - No Max car speed - 60. Needed count of batteries - 6.
+2018-02-04 15:13:38 INFO  GameRoomRunner:64 - Toy name - Rubik's cube, price - 20,50, age limit - CHILD, size - 185,0, type - EDUCATIONAL. Educational type - MATHEMATICAL., is Rubik's cube assembled? - Yes.
+2018-02-04 15:13:38 INFO  GameRoomRunner:64 - Toy name - Rubik's cube, price - 25,50, age limit - CHILD, size - 185,0, type - EDUCATIONAL. Educational type - MATHEMATICAL., is Rubik's cube assembled? - Yes.
+2018-02-04 15:13:38 INFO  GameRoomRunner:49 - Is that toy - Toy name - Xbox360, price - 45,00, age limit - TEENAGER, size - 25,0, type - ELECTRONIC. Operation voltage - 220. Power socket needed - Yes Can connect to Internet - Yes. in the room - Oz country.
+2018-02-04 15:13:38 INFO  GameRoomRunner:54 - Yes
+2018-02-04 15:13:38 INFO  GameRoomRunner:55 - Sort by price.
+2018-02-04 15:13:38 INFO  GameRoomRunner:64 - Toy name - Jumping rope, price - 20,50, age limit - CHILD, size - 4,0, type - SPORT. Required space to play - 6. Is multi playing - No. Jumping rope length = 2.
+2018-02-04 15:13:38 INFO  GameRoomRunner:64 - Toy name - Rubik's cube, price - 20,50, age limit - CHILD, size - 185,0, type - EDUCATIONAL. Educational type - MATHEMATICAL., is Rubik's cube assembled? - Yes.
+2018-02-04 15:13:38 INFO  GameRoomRunner:64 - Toy name - Jumping rope, price - 22,50, age limit - CHILD, size - 6,0, type - SPORT. Required space to play - 9. Is multi playing - No. Jumping rope length = 3.
+2018-02-04 15:13:38 INFO  GameRoomRunner:64 - Toy name - Rubik's cube, price - 25,50, age limit - CHILD, size - 185,0, type - EDUCATIONAL. Educational type - MATHEMATICAL., is Rubik's cube assembled? - Yes.
+2018-02-04 15:13:38 INFO  GameRoomRunner:64 - Toy name - Xbox360, price - 45,00, age limit - TEENAGER, size - 25,0, type - ELECTRONIC. Operation voltage - 220. Power socket needed - Yes Can connect to Internet - Yes.
+2018-02-04 15:13:38 INFO  GameRoomRunner:64 - Toy name - Pirates, price - 45,00, age limit - CHILD, size - 25,0, type - EDUCATIONAL. Educational type - CONSTRUCTOR. Peaces = 2000, toy men count = 20
+2018-02-04 15:13:38 INFO  GameRoomRunner:64 - Toy name - Police_Car, price - 45,00, age limit - PRE_TEEN, size - 25,0, type - ELECTRONIC. Operation voltage - 9. Power socket needed - No Max car speed - 50. Needed count of batteries - 2.
+2018-02-04 15:13:38 INFO  GameRoomRunner:64 - Toy name - Space_Wars, price - 55,00, age limit - CHILD, size - 200,0, type - EDUCATIONAL. Educational type - CONSTRUCTOR. Peaces = 20000, toy men count = 200
+2018-02-04 15:13:38 INFO  GameRoomRunner:64 - Toy name - Bad_boy, price - 60,00, age limit - CHILD, size - 2200,0, type - SPORT. Required space to play - 2500. Is multi playing - Yes. Ball diameter = 10. Basket height = 220.
+2018-02-04 15:13:38 INFO  GameRoomRunner:64 - Toy name - Dendi, price - 60,00, age limit - TEENAGER, size - 10,0, type - ELECTRONIC. Operation voltage - 220. Power socket needed - Yes Can connect to Internet - No.
+2018-02-04 15:13:38 INFO  GameRoomRunner:64 - Toy name - Robocop_Car, price - 60,00, age limit - PRE_TEEN, size - 10,5, type - ELECTRONIC. Operation voltage - 9. Power socket needed - No Max car speed - 60. Needed count of batteries - 6.
