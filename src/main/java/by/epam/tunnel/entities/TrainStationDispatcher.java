@@ -1,17 +1,28 @@
 package by.epam.tunnel.entities;
 
-import org.apache.log4j.Logger;
+import by.epam.tunnel.entities.trainstates.TrainAfterTunnelState;
+import by.epam.tunnel.entities.trainstates.TrainInTunnelState;
+import by.epam.tunnel.entities.trainstates.TrainNearTunnelState;
+import by.epam.tunnel.entities.trainstates.TrainState;
 
 import java.util.concurrent.atomic.AtomicBoolean;
+import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class TrainStationDispatcher {
 
-    private static final Logger LOGGER = Logger.getLogger(TrainStationDispatcher.class);
+    private final static int TUNNEL_INDEX = 10;
+
     private static TrainStationDispatcher instance = null;
-    private static Lock lock = new ReentrantLock();
     private static AtomicBoolean isInstanceAvailable = new AtomicBoolean(true);
+
+    private static Lock lock = new ReentrantLock();
+    private final Condition everestAvailable = lock.newCondition();
+    private final Condition killerAvailable = lock.newCondition();
+
+    private Tunnel tunnelEverest = new Tunnel("Everest", 15, 40, 2);
+    private Tunnel tunnelKiller = new Tunnel("Killer", 100, 150, 2);
 
     private TrainStationDispatcher() {
     }
@@ -33,11 +44,40 @@ public class TrainStationDispatcher {
         return instance;
     }
 
-    public void observeTunnelForDirection(Tunnel tunnel, Train train) {
-
+    public void observeTunnels(Train train, int currentTrainDistance) {
+        observeTunnel(train, currentTrainDistance, tunnelEverest, everestAvailable);
+        observeTunnel(train, currentTrainDistance, tunnelKiller, killerAvailable);
     }
 
-    public void observeTunnelForTrainsCount(Tunnel tunnel, Train train) {
-    }
+    private void observeTunnel(Train train, int currentTrainDistance, Tunnel tunnel, Condition condition) {
+        int startTunnelPoint = tunnel.getTunnelStartPoint();
+        int finishTunnelPoint = tunnel.getTunnelFinishPoint();
 
+        if (startTunnelPoint == currentTrainDistance + TUNNEL_INDEX) {
+            TrainState trainNearTunnelState = new TrainNearTunnelState(train, tunnel);
+            train.setTrainState(trainNearTunnelState);
+        }
+
+        lock.lock();
+        try {
+            if (startTunnelPoint == currentTrainDistance) {
+                tunnel.trainDroveIn(train, condition);
+                TrainState trainInTunnelState = new TrainInTunnelState(train, tunnel);
+                train.setTrainState(trainInTunnelState);
+            }
+        } finally {
+            lock.unlock();
+        }
+
+        lock.lock();
+        try {
+            if (finishTunnelPoint == currentTrainDistance) {
+                tunnel.trainDroveOut(train, condition);
+                TrainState trainAfterTunnelState = new TrainAfterTunnelState(train, tunnel);
+                train.setTrainState(trainAfterTunnelState);
+            }
+        } finally {
+            lock.unlock();
+        }
+    }
 }

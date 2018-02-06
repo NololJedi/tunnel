@@ -60,3 +60,58 @@
 2018-02-04 15:13:38 INFO  GameRoomRunner:64 - Toy name - Bad_boy, price - 60,00, age limit - CHILD, size - 2200,0, type - SPORT. Required space to play - 2500. Is multi playing - Yes. Ball diameter = 10. Basket height = 220.
 2018-02-04 15:13:38 INFO  GameRoomRunner:64 - Toy name - Dendi, price - 60,00, age limit - TEENAGER, size - 10,0, type - ELECTRONIC. Operation voltage - 220. Power socket needed - Yes Can connect to Internet - No.
 2018-02-04 15:13:38 INFO  GameRoomRunner:64 - Toy name - Robocop_Car, price - 60,00, age limit - PRE_TEEN, size - 10,5, type - ELECTRONIC. Operation voltage - 9. Power socket needed - No Max car speed - 60. Needed count of batteries - 6.
+2018-02-06 23:25:29 INFO  ConsoleHelper:11 - Train - Thread-0 is departed.
+2018-02-06 23:25:29 INFO  ConsoleHelper:11 - Train - Thread-1 is departed.
+2018-02-06 23:25:29 INFO  ConsoleHelper:11 - Train - Thread-2 is departed.
+2018-02-06 23:25:29 INFO  ConsoleHelper:11 - Train - Thread-3 is departed.
+2018-02-06 23:25:29 INFO  ConsoleHelper:11 - Train - Thread-4 is departed.
+2018-02-06 23:25:29 INFO  ConsoleHelper:11 - Train - Thread-5 is departed.
+2018-02-06 23:25:30 INFO  ConsoleHelper:11 - Train - Thread-3 is approaching to tunnel - Everest.
+2018-02-06 23:25:30 INFO  ConsoleHelper:11 - Train - Thread-2 is approaching to tunnel - Everest.
+2018-02-06 23:25:30 INFO  ConsoleHelper:11 - Train - Thread-4 is approaching to tunnel - Everest.
+2018-02-06 23:25:30 INFO  ConsoleHelper:11 - Train - Thread-5 is approaching to tunnel - Everest.
+2018-02-06 23:25:30 INFO  ConsoleHelper:11 - Train - Thread-1 is approaching to tunnel - Everest.
+2018-02-06 23:25:30 INFO  ConsoleHelper:11 - Train - Thread-0 is approaching to tunnel - Everest.
+2018-02-06 23:25:30 INFO  ConsoleHelper:11 - Train - Thread-1 is moving through tunnel - Everest.
+2018-02-06 23:25:30 INFO  ConsoleHelper:11 - Train - Thread-4 is moving through tunnel - Everest.
+2018-02-06 23:25:32 INFO  ConsoleHelper:11 - Train - Thread-1 drove out tunnel - Everest.
+2018-02-06 23:25:32 INFO  ConsoleHelper:11 - Train - Thread-5 is waiting near tunnel - Everest.
+2018-02-06 23:25:32 INFO  ConsoleHelper:11 - Train - Thread-5 is moving through tunnel - Everest.
+2018-02-06 23:25:32 INFO  ConsoleHelper:11 - Train - Thread-4 drove out tunnel - Everest.
+2018-02-06 23:25:32 INFO  ConsoleHelper:11 - Train - Thread-3 is waiting near tunnel - Everest.
+2018-02-06 23:25:32 INFO  ConsoleHelper:11 - Train - Thread-3 is moving through tunnel - Everest.
+2018-02-06 23:25:33 INFO  ConsoleHelper:11 - Train - Thread-5 drove out tunnel - Everest.
+2018-02-06 23:25:33 INFO  ConsoleHelper:11 - Train - Thread-2 is waiting near tunnel - Everest.
+2018-02-06 23:25:33 INFO  ConsoleHelper:11 - Train - Thread-2 is moving through tunnel - Everest.
+2018-02-06 23:25:33 INFO  ConsoleHelper:11 - Train - Thread-3 drove out tunnel - Everest.
+2018-02-06 23:25:33 INFO  ConsoleHelper:11 - Train - Thread-0 is waiting near tunnel - Everest.
+2018-02-06 23:25:33 INFO  ConsoleHelper:11 - Train - Thread-0 is moving through tunnel - Everest.
+2018-02-06 23:25:34 INFO  ConsoleHelper:11 - Train - Thread-2 drove out tunnel - Everest.
+2018-02-06 23:25:34 INFO  ConsoleHelper:11 - Train - Thread-0 drove out tunnel - Everest.
+2018-02-06 23:25:37 INFO  ConsoleHelper:11 - Train - Thread-1 is approaching to tunnel - Killer.
+2018-02-06 23:25:37 INFO  ConsoleHelper:11 - Train - Thread-4 is approaching to tunnel - Killer.
+2018-02-06 23:25:38 INFO  ConsoleHelper:11 - Train - Thread-4 is moving through tunnel - Killer.
+2018-02-06 23:25:38 INFO  ConsoleHelper:11 - Train - Thread-1 is moving through tunnel - Killer.
+2018-02-06 23:25:38 INFO  ConsoleHelper:11 - Train - Thread-5 is approaching to tunnel - Killer.
+2018-02-06 23:25:38 INFO  ConsoleHelper:11 - Train - Thread-3 is approaching to tunnel - Killer.
+2018-02-06 23:25:39 INFO  ConsoleHelper:11 - Train - Thread-2 is approaching to tunnel - Killer.
+2018-02-06 23:25:39 INFO  ConsoleHelper:11 - Train - Thread-0 is approaching to tunnel - Killer.
+2018-02-06 23:25:40 INFO  ConsoleHelper:11 - Train - Thread-1 drove out tunnel - Killer.
+2018-02-06 23:25:40 INFO  ConsoleHelper:11 - Train - Thread-5 is waiting near tunnel - Killer.
+2018-02-06 23:25:40 INFO  ConsoleHelper:11 - Train - Thread-5 is moving through tunnel - Killer.
+2018-02-06 23:25:40 INFO  ConsoleHelper:11 - Train - Thread-4 drove out tunnel - Killer.
+2018-02-06 23:25:40 INFO  ConsoleHelper:11 - Train - Thread-3 is waiting near tunnel - Killer.
+2018-02-06 23:25:40 INFO  ConsoleHelper:11 - Train - Thread-3 is moving through tunnel - Killer.
+2018-02-06 23:25:42 INFO  ConsoleHelper:11 - Train - Thread-4 is arrived to station.
+2018-02-06 23:25:42 INFO  ConsoleHelper:11 - Train - Thread-3 is arrived to station.
+2018-02-06 23:25:42 INFO  ConsoleHelper:11 - Train - Thread-5 drove out tunnel - Killer.
+2018-02-06 23:25:42 INFO  ConsoleHelper:11 - Train - Thread-2 is waiting near tunnel - Killer.
+2018-02-06 23:25:42 INFO  ConsoleHelper:11 - Train - Thread-2 is moving through tunnel - Killer.
+2018-02-06 23:25:45 INFO  ConsoleHelper:11 - Train - Thread-2 drove out tunnel - Killer.
+2018-02-06 23:25:45 INFO  ConsoleHelper:11 - Train - Thread-0 is waiting near tunnel - Killer.
+2018-02-06 23:25:45 INFO  ConsoleHelper:11 - Train - Thread-0 is moving through tunnel - Killer.
+2018-02-06 23:25:45 INFO  ConsoleHelper:11 - Train - Thread-1 is arrived to station.
+2018-02-06 23:25:47 INFO  ConsoleHelper:11 - Train - Thread-0 drove out tunnel - Killer.
+2018-02-06 23:25:53 INFO  ConsoleHelper:11 - Train - Thread-5 is arrived to station.
+2018-02-06 23:25:56 INFO  ConsoleHelper:11 - Train - Thread-2 is arrived to station.
+2018-02-06 23:26:03 INFO  ConsoleHelper:11 - Train - Thread-0 is arrived to station.
