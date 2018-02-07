@@ -47,10 +47,12 @@ public class Tunnel {
         int currentTrainsInTunnel = trainsInTunnel.size();
 
         if (currentTrainsInTunnel == availableTrainsInTunnel) {
+
+            TrainState trainWaitingState = new TrainWaitingState(train, this);
+            train.setTrainState(trainWaitingState);
+
             try {
                 available.await();
-                TrainState trainWaitingState = new TrainWaitingState(train, this);
-                train.setTrainState(trainWaitingState);
             } catch (InterruptedException e) {
                 LOGGER.warn(e);
             }

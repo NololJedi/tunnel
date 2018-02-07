@@ -12,7 +12,6 @@ public class Train extends Thread {
     private static final Logger LOGGER = Logger.getLogger(Train.class);
 
     private TrainStationDispatcher trainStationDispatcher;
-    private final TrainDepartedState trainDepartedState = new TrainDepartedState(this);
     private TrainState trainState;
     private final Direction direction;
     private final int distance;
@@ -21,7 +20,7 @@ public class Train extends Thread {
         this.direction = direction;
         this.distance = distance;
         this.trainStationDispatcher = TrainStationDispatcher.getInstance();
-        trainState = trainDepartedState;
+        trainState = new TrainDepartedState(this);
     }
 
     @Override
@@ -40,7 +39,7 @@ public class Train extends Thread {
         try {
             TimeUnit.MILLISECONDS.sleep(trainState.move());
         } catch (InterruptedException e) {
-            LOGGER.info("Interrupted!", e);
+            LOGGER.info("Train move method interrupted exception.", e);
         }
     }
 

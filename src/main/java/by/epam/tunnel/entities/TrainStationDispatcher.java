@@ -1,7 +1,7 @@
 package by.epam.tunnel.entities;
 
-import by.epam.tunnel.entities.trainstates.TrainAfterTunnelState;
-import by.epam.tunnel.entities.trainstates.TrainInTunnelState;
+import by.epam.tunnel.entities.trainstates.TrainDroveOutTunnelState;
+import by.epam.tunnel.entities.trainstates.TrainDroveInTunnelState;
 import by.epam.tunnel.entities.trainstates.TrainNearTunnelState;
 import by.epam.tunnel.entities.trainstates.TrainState;
 
@@ -21,8 +21,8 @@ public class TrainStationDispatcher {
     private final Condition everestAvailable = lock.newCondition();
     private final Condition killerAvailable = lock.newCondition();
 
-    private Tunnel tunnelEverest = new Tunnel("Everest", 15, 40, 2);
-    private Tunnel tunnelKiller = new Tunnel("Killer", 100, 150, 2);
+    private Tunnel tunnelEverest = new Tunnel("Everest", 15, 40, 1);
+    private Tunnel tunnelKiller = new Tunnel("Killer", 100, 150, 3);
 
     private TrainStationDispatcher() {
     }
@@ -62,7 +62,7 @@ public class TrainStationDispatcher {
         try {
             if (startTunnelPoint == currentTrainDistance) {
                 tunnel.trainDroveIn(train, condition);
-                TrainState trainInTunnelState = new TrainInTunnelState(train, tunnel);
+                TrainState trainInTunnelState = new TrainDroveInTunnelState(train, tunnel);
                 train.setTrainState(trainInTunnelState);
             }
         } finally {
@@ -73,7 +73,7 @@ public class TrainStationDispatcher {
         try {
             if (finishTunnelPoint == currentTrainDistance) {
                 tunnel.trainDroveOut(train, condition);
-                TrainState trainAfterTunnelState = new TrainAfterTunnelState(train, tunnel);
+                TrainState trainAfterTunnelState = new TrainDroveOutTunnelState(train, tunnel);
                 train.setTrainState(trainAfterTunnelState);
             }
         } finally {

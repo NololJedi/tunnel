@@ -9,7 +9,7 @@ public class TrainWaitingState implements TrainState {
     private final static long WAITING_INDEX = 0;
 
     public TrainWaitingState(Train train, Tunnel tunnel) {
-        ConsoleHelper.printMessage(String.format("Train - %s is waiting near tunnel - %s.", train.getName(), tunnel.getName()));
+        ConsoleHelper.printMessage(String.format("Train - %s is waiting near tunnel - %s.", train.getId(), tunnel.getName()));
     }
 
     @Override

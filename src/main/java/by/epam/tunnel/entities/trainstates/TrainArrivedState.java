@@ -8,7 +8,7 @@ public class TrainArrivedState implements TrainState {
     private final static long BRAKE = 0;
 
     public TrainArrivedState(Train train) {
-        ConsoleHelper.printMessage(String.format("Train - %s is arrived to station.", train.getName()));
+        ConsoleHelper.printMessage(String.format("Train - %s is arrived to station.", train.getId()));
     }
 
     @Override

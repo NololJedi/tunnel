@@ -8,7 +8,7 @@ public class TrainDepartedState implements TrainState {
     private final static long START_SPEED = 70;
 
     public TrainDepartedState(Train train) {
-        ConsoleHelper.printMessage(String.format("Train - %s is departed.", train.getName()));
+        ConsoleHelper.printMessage(String.format("Train - %s is departed.", train.getId()));
     }
 
     @Override

@@ -4,12 +4,12 @@ import by.epam.tunnel.entities.Train;
 import by.epam.tunnel.entities.Tunnel;
 import by.epam.tunnel.util.ConsoleHelper;
 
-public class TrainAfterTunnelState implements TrainState {
+public class TrainDroveOutTunnelState implements TrainState {
 
     private final static long MAX_SPEED = 100;
 
-    public TrainAfterTunnelState(Train train, Tunnel tunnel) {
-        ConsoleHelper.printMessage(String.format("Train - %s drove out tunnel - %s.", train.getName(), tunnel.getName()));
+    public TrainDroveOutTunnelState(Train train, Tunnel tunnel) {
+        ConsoleHelper.printMessage(String.format("Train - %s drove out tunnel - %s.", train.getId(), tunnel.getName()));
     }
 
     @Override
