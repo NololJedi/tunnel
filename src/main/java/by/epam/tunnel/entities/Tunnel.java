@@ -16,13 +16,12 @@ public class Tunnel {
     private final static String FULL_TUNNEL = "Tunnel is full.";
     private final static String DIFFERENT_DIRECTIONS = "Directions are different.";
 
-    private LinkedList<Train> trainsInTunnel = new LinkedList<>();
-
     private final String name;
     private final int tunnelStartPoint;
     private final int tunnelFinishPoint;
     private final int availableTrainsInTunnel;
 
+    private LinkedList<Train> trainsInTunnel = new LinkedList<>();
     private Direction currentDirection;
 
     public Tunnel(String name, int tunnelStartPoint, int tunnelFinishPoint, int availableTrainsInTunnel) {
@@ -42,6 +41,13 @@ public class Tunnel {
     }
 
     public void trainDroveIn(Train train, Condition available) {
+        if (train == null) {
+            throw new IllegalArgumentException("Train is null!");
+        }
+        if (available == null) {
+            throw new IllegalArgumentException("Condition is null!");
+        }
+
         int currentTrainsInTunnel = trainsInTunnel.size();
 
         if (currentTrainsInTunnel == availableTrainsInTunnel) {
@@ -53,6 +59,24 @@ public class Tunnel {
         }
 
         trainsInTunnel.addLast(train);
+    }
+
+    public void trainDroveOut(Train train, Condition available) {
+        if (train == null) {
+            throw new IllegalArgumentException("Train is null!");
+        }
+        if (available == null) {
+            throw new IllegalArgumentException("Condition is null!");
+        }
+
+        trainsInTunnel.remove(train);
+        int currentTrainsInTunnel = trainsInTunnel.size();
+
+        if (currentTrainsInTunnel == EMPTY_TRAINS_INDEX) {
+            currentDirection = Direction.NONE;
+        }
+
+        available.signal();
     }
 
     private void trainWait(Train train, Condition available, String reason) {
@@ -77,17 +101,6 @@ public class Tunnel {
         }
 
         return currentDirection == trainDirection;
-    }
-
-    public void trainDroveOut(Train train, Condition available) {
-        trainsInTunnel.remove(train);
-        int currentTrainsInTunnel = trainsInTunnel.size();
-
-        if (currentTrainsInTunnel == EMPTY_TRAINS_INDEX) {
-            currentDirection = Direction.NONE;
-        }
-
-        available.signal();
     }
 
     @Override
@@ -116,7 +129,7 @@ public class Tunnel {
     @Override
     public String toString() {
         int currentTrainsInTunnel = trainsInTunnel.size();
-        String result = String.format("Tunnel - %s. Direction to - %s. Trains in tunnel - %d",
+        String result = String.format("Tunnel: %s. Direction - %s. Trains in tunnel - %d",
                 name, currentDirection, currentTrainsInTunnel);
 
         return result;

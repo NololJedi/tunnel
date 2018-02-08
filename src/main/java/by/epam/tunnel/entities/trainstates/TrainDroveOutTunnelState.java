@@ -9,7 +9,7 @@ public class TrainDroveOutTunnelState implements TrainState {
     private final static long MAX_SPEED = 100;
 
     public TrainDroveOutTunnelState(Train train, Tunnel tunnel) {
-        ConsoleHelper.printMessage(String.format("%s drove out tunnel - %s.", train.toString(), tunnel.toString()));
+        ConsoleHelper.printMessage(String.format("%s drove out %s.", train.toString(), tunnel.toString()));
     }
 
     @Override

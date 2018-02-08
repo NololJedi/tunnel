@@ -1,0 +1,207 @@
+2018-02-08 23:15:51 INFO  ConsoleHelper:11 - Train: №11, direction to NORTH. is departed.
+2018-02-08 23:15:51 INFO  ConsoleHelper:11 - Train: №12, direction to WEST. is departed.
+2018-02-08 23:15:51 INFO  ConsoleHelper:11 - Train: №13, direction to EAST. is departed.
+2018-02-08 23:15:51 INFO  ConsoleHelper:11 - Train: №14, direction to SOUTH. is departed.
+2018-02-08 23:15:51 INFO  ConsoleHelper:11 - Train: №15, direction to WEST. is departed.
+2018-02-08 23:15:51 INFO  ConsoleHelper:11 - Train: №16, direction to SOUTH. is departed.
+2018-02-08 23:15:51 INFO  ConsoleHelper:11 - Train: №17, direction to NORTH. is departed.
+2018-02-08 23:15:51 INFO  ConsoleHelper:11 - Train: №18, direction to WEST. is departed.
+2018-02-08 23:15:51 INFO  ConsoleHelper:11 - Train: №19, direction to EAST. is departed.
+2018-02-08 23:15:51 INFO  ConsoleHelper:11 - Train: №20, direction to NORTH. is departed.
+2018-02-08 23:15:51 INFO  ConsoleHelper:11 - Train: №21, direction to WEST. is departed.
+2018-02-08 23:15:51 INFO  ConsoleHelper:11 - Train: №22, direction to EAST. is departed.
+2018-02-08 23:15:51 INFO  ConsoleHelper:11 - Train: №12, direction to WEST. is approaching to tunnel - Tunnel - Gotthard-Basistunnel. Direction to - NONE. Trains in tunnel - 0.
+2018-02-08 23:15:51 INFO  ConsoleHelper:11 - Train: №15, direction to WEST. is approaching to tunnel - Tunnel - Gotthard-Basistunnel. Direction to - NONE. Trains in tunnel - 0.
+2018-02-08 23:15:51 INFO  ConsoleHelper:11 - Train: №16, direction to SOUTH. is approaching to tunnel - Tunnel - Gotthard-Basistunnel. Direction to - NONE. Trains in tunnel - 0.
+2018-02-08 23:15:51 INFO  ConsoleHelper:11 - Train: №18, direction to WEST. is approaching to tunnel - Tunnel - Gotthard-Basistunnel. Direction to - NONE. Trains in tunnel - 0.
+2018-02-08 23:15:52 INFO  ConsoleHelper:11 - Train: №15, direction to WEST. drove in tunnel - Tunnel - Gotthard-Basistunnel. Direction to - WEST. Trains in tunnel - 1.
+2018-02-08 23:15:52 INFO  ConsoleHelper:11 - Train: №12, direction to WEST. drove in tunnel - Tunnel - Gotthard-Basistunnel. Direction to - WEST. Trains in tunnel - 2.
+2018-02-08 23:15:52 INFO  ConsoleHelper:11 - Train: №18, direction to WEST. is waiting near tunnel - Tunnel - Gotthard-Basistunnel. Direction to - WEST. Trains in tunnel - 2 Reason - Tunnel is full.
+2018-02-08 23:15:52 INFO  ConsoleHelper:11 - Train: №16, direction to SOUTH. is waiting near tunnel - Tunnel - Gotthard-Basistunnel. Direction to - WEST. Trains in tunnel - 2 Reason - Tunnel is full.
+2018-02-08 23:15:53 INFO  ConsoleHelper:11 - Train: №21, direction to WEST. is approaching to tunnel - Tunnel - Seikan Tunnel. Direction to - NONE. Trains in tunnel - 0.
+2018-02-08 23:15:53 INFO  ConsoleHelper:11 - Train: №13, direction to EAST. is approaching to tunnel - Tunnel - Seikan Tunnel. Direction to - NONE. Trains in tunnel - 0.
+2018-02-08 23:15:53 INFO  ConsoleHelper:11 - Train: №19, direction to EAST. is approaching to tunnel - Tunnel - Seikan Tunnel. Direction to - NONE. Trains in tunnel - 0.
+2018-02-08 23:15:53 INFO  ConsoleHelper:11 - Train: №22, direction to EAST. is approaching to tunnel - Tunnel - Seikan Tunnel. Direction to - NONE. Trains in tunnel - 0.
+2018-02-08 23:15:53 INFO  ConsoleHelper:11 - Train: №20, direction to NORTH. is approaching to tunnel - Tunnel - Seikan Tunnel. Direction to - NONE. Trains in tunnel - 0.
+2018-02-08 23:15:53 INFO  ConsoleHelper:11 - Train: №14, direction to SOUTH. is approaching to tunnel - Tunnel - Seikan Tunnel. Direction to - NONE. Trains in tunnel - 0.
+2018-02-08 23:15:53 INFO  ConsoleHelper:11 - Train: №11, direction to NORTH. is approaching to tunnel - Tunnel - Seikan Tunnel. Direction to - NONE. Trains in tunnel - 0.
+2018-02-08 23:15:53 INFO  ConsoleHelper:11 - Train: №17, direction to NORTH. is approaching to tunnel - Tunnel - Seikan Tunnel. Direction to - NONE. Trains in tunnel - 0.
+2018-02-08 23:15:54 INFO  ConsoleHelper:11 - Train: №13, direction to EAST. drove in tunnel - Tunnel - Seikan Tunnel. Direction to - EAST. Trains in tunnel - 1.
+2018-02-08 23:15:54 INFO  ConsoleHelper:11 - Train: №17, direction to NORTH. is waiting near tunnel - Tunnel - Seikan Tunnel. Direction to - EAST. Trains in tunnel - 1 Reason - Directions are different.
+2018-02-08 23:15:54 INFO  ConsoleHelper:11 - Train: №21, direction to WEST. is waiting near tunnel - Tunnel - Seikan Tunnel. Direction to - EAST. Trains in tunnel - 1 Reason - Directions are different.
+2018-02-08 23:15:54 INFO  ConsoleHelper:11 - Train: №19, direction to EAST. drove in tunnel - Tunnel - Seikan Tunnel. Direction to - EAST. Trains in tunnel - 2.
+2018-02-08 23:15:54 INFO  ConsoleHelper:11 - Train: №11, direction to NORTH. is waiting near tunnel - Tunnel - Seikan Tunnel. Direction to - EAST. Trains in tunnel - 2 Reason - Directions are different.
+2018-02-08 23:15:54 INFO  ConsoleHelper:11 - Train: №14, direction to SOUTH. is waiting near tunnel - Tunnel - Seikan Tunnel. Direction to - EAST. Trains in tunnel - 2 Reason - Directions are different.
+2018-02-08 23:15:54 INFO  ConsoleHelper:11 - Train: №20, direction to NORTH. is waiting near tunnel - Tunnel - Seikan Tunnel. Direction to - EAST. Trains in tunnel - 2 Reason - Directions are different.
+2018-02-08 23:15:54 INFO  ConsoleHelper:11 - Train: №22, direction to EAST. drove in tunnel - Tunnel - Seikan Tunnel. Direction to - EAST. Trains in tunnel - 3.
+2018-02-08 23:15:56 INFO  ConsoleHelper:11 - Train: №19, direction to EAST. drove out tunnel - Tunnel - Seikan Tunnel. Direction to - EAST. Trains in tunnel - 2.
+2018-02-08 23:15:56 INFO  ConsoleHelper:11 - Train: №17, direction to NORTH. drove in tunnel - Tunnel - Seikan Tunnel. Direction to - EAST. Trains in tunnel - 3.
+2018-02-08 23:15:56 INFO  ConsoleHelper:11 - Train: №13, direction to EAST. drove out tunnel - Tunnel - Seikan Tunnel. Direction to - EAST. Trains in tunnel - 2.
+2018-02-08 23:15:56 INFO  ConsoleHelper:11 - Train: №21, direction to WEST. drove in tunnel - Tunnel - Seikan Tunnel. Direction to - EAST. Trains in tunnel - 3.
+2018-02-08 23:15:56 INFO  ConsoleHelper:11 - Train: №22, direction to EAST. drove out tunnel - Tunnel - Seikan Tunnel. Direction to - EAST. Trains in tunnel - 2.
+2018-02-08 23:15:56 INFO  ConsoleHelper:11 - Train: №11, direction to NORTH. drove in tunnel - Tunnel - Seikan Tunnel. Direction to - EAST. Trains in tunnel - 3.
+2018-02-08 23:15:57 INFO  ConsoleHelper:11 - Train: №15, direction to WEST. drove out tunnel - Tunnel - Gotthard-Basistunnel. Direction to - WEST. Trains in tunnel - 1.
+2018-02-08 23:15:57 INFO  ConsoleHelper:11 - Train: №18, direction to WEST. drove in tunnel - Tunnel - Gotthard-Basistunnel. Direction to - WEST. Trains in tunnel - 2.
+2018-02-08 23:15:57 INFO  ConsoleHelper:11 - Train: №12, direction to WEST. drove out tunnel - Tunnel - Gotthard-Basistunnel. Direction to - WEST. Trains in tunnel - 1.
+2018-02-08 23:15:57 INFO  ConsoleHelper:11 - Train: №16, direction to SOUTH. is waiting near tunnel - Tunnel - Gotthard-Basistunnel. Direction to - WEST. Trains in tunnel - 1 Reason - Directions are different.
+2018-02-08 23:15:59 INFO  ConsoleHelper:11 - Train: №17, direction to NORTH. drove out tunnel - Tunnel - Seikan Tunnel. Direction to - EAST. Trains in tunnel - 2.
+2018-02-08 23:15:59 INFO  ConsoleHelper:11 - Train: №14, direction to SOUTH. drove in tunnel - Tunnel - Seikan Tunnel. Direction to - EAST. Trains in tunnel - 3.
+2018-02-08 23:15:59 INFO  ConsoleHelper:11 - Train: №11, direction to NORTH. drove out tunnel - Tunnel - Seikan Tunnel. Direction to - EAST. Trains in tunnel - 2.
+2018-02-08 23:15:59 INFO  ConsoleHelper:11 - Train: №21, direction to WEST. drove out tunnel - Tunnel - Seikan Tunnel. Direction to - EAST. Trains in tunnel - 1.
+2018-02-08 23:15:59 INFO  ConsoleHelper:11 - Train: №20, direction to NORTH. drove in tunnel - Tunnel - Seikan Tunnel. Direction to - EAST. Trains in tunnel - 2.
+2018-02-08 23:16:01 INFO  ConsoleHelper:11 - Train: №14, direction to SOUTH. drove out tunnel - Tunnel - Seikan Tunnel. Direction to - EAST. Trains in tunnel - 1.
+2018-02-08 23:16:01 INFO  ConsoleHelper:11 - Train: №20, direction to NORTH. drove out tunnel - Tunnel - Seikan Tunnel. Direction to - NONE. Trains in tunnel - 0.
+2018-02-08 23:16:01 INFO  ConsoleHelper:11 - Train: №15, direction to WEST. is arrived to station.
+2018-02-08 23:16:01 INFO  ConsoleHelper:11 - Train: №12, direction to WEST. is arrived to station.
+2018-02-08 23:16:02 INFO  ConsoleHelper:11 - Train: №19, direction to EAST. is arrived to station.
+2018-02-08 23:16:02 INFO  ConsoleHelper:11 - Train: №13, direction to EAST. is arrived to station.
+2018-02-08 23:16:02 INFO  ConsoleHelper:11 - Train: №22, direction to EAST. is arrived to station.
+2018-02-08 23:16:02 INFO  ConsoleHelper:11 - Train: №18, direction to WEST. drove out tunnel - Tunnel - Gotthard-Basistunnel. Direction to - NONE. Trains in tunnel - 0.
+2018-02-08 23:16:02 INFO  ConsoleHelper:11 - Train: №16, direction to SOUTH. drove in tunnel - Tunnel - Gotthard-Basistunnel. Direction to - NONE. Trains in tunnel - 1.
+2018-02-08 23:16:03 INFO  ConsoleHelper:11 - Train: №21, direction to WEST. is arrived to station.
+2018-02-08 23:16:06 INFO  ConsoleHelper:11 - Train: №17, direction to NORTH. is arrived to station.
+2018-02-08 23:16:06 INFO  ConsoleHelper:11 - Train: №11, direction to NORTH. is arrived to station.
+2018-02-08 23:16:06 INFO  ConsoleHelper:11 - Train: №18, direction to WEST. is arrived to station.
+2018-02-08 23:16:07 INFO  ConsoleHelper:11 - Train: №16, direction to SOUTH. drove out tunnel - Tunnel - Gotthard-Basistunnel. Direction to - NONE. Trains in tunnel - 0.
+2018-02-08 23:16:08 INFO  ConsoleHelper:11 - Train: №14, direction to SOUTH. is arrived to station.
+2018-02-08 23:16:08 INFO  ConsoleHelper:11 - Train: №20, direction to NORTH. is arrived to station.
+2018-02-08 23:16:13 INFO  ConsoleHelper:11 - Train: №16, direction to SOUTH. is arrived to station.
+2018-02-08 23:19:17 INFO  ConsoleHelper:11 - Train: №11, direction to NORTH. is departed from depot.
+2018-02-08 23:19:17 INFO  ConsoleHelper:11 - Train: №12, direction to WEST. is departed from depot.
+2018-02-08 23:19:17 INFO  ConsoleHelper:11 - Train: №13, direction to EAST. is departed from depot.
+2018-02-08 23:19:17 INFO  ConsoleHelper:11 - Train: №14, direction to SOUTH. is departed from depot.
+2018-02-08 23:19:17 INFO  ConsoleHelper:11 - Train: №15, direction to WEST. is departed from depot.
+2018-02-08 23:19:17 INFO  ConsoleHelper:11 - Train: №16, direction to SOUTH. is departed from depot.
+2018-02-08 23:19:17 INFO  ConsoleHelper:11 - Train: №17, direction to NORTH. is departed from depot.
+2018-02-08 23:19:17 INFO  ConsoleHelper:11 - Train: №18, direction to WEST. is departed from depot.
+2018-02-08 23:19:17 INFO  ConsoleHelper:11 - Train: №19, direction to EAST. is departed from depot.
+2018-02-08 23:19:17 INFO  ConsoleHelper:11 - Train: №20, direction to NORTH. is departed from depot.
+2018-02-08 23:19:17 INFO  ConsoleHelper:11 - Train: №21, direction to WEST. is departed from depot.
+2018-02-08 23:19:17 INFO  ConsoleHelper:11 - Train: №22, direction to EAST. is departed from depot.
+2018-02-08 23:19:17 INFO  ConsoleHelper:11 - Train: №20, direction to NORTH. is approaching to Tunnel - Gotthard-Basistunnel. Direction to - NONE. Trains in tunnel - 0.
+2018-02-08 23:19:17 INFO  ConsoleHelper:11 - Train: №19, direction to EAST. is approaching to Tunnel - Gotthard-Basistunnel. Direction to - NONE. Trains in tunnel - 0.
+2018-02-08 23:19:17 INFO  ConsoleHelper:11 - Train: №13, direction to EAST. is approaching to Tunnel - Gotthard-Basistunnel. Direction to - NONE. Trains in tunnel - 0.
+2018-02-08 23:19:17 INFO  ConsoleHelper:11 - Train: №21, direction to WEST. is approaching to Tunnel - Gotthard-Basistunnel. Direction to - NONE. Trains in tunnel - 0.
+2018-02-08 23:19:17 INFO  ConsoleHelper:11 - Train: №12, direction to WEST. is approaching to Tunnel - Gotthard-Basistunnel. Direction to - NONE. Trains in tunnel - 0.
+2018-02-08 23:19:18 INFO  ConsoleHelper:11 - Train: №13, direction to EAST. drove in Tunnel - Gotthard-Basistunnel. Direction to - EAST. Trains in tunnel - 1.
+2018-02-08 23:19:18 INFO  ConsoleHelper:11 - Train: №20, direction to NORTH. is waiting near Tunnel - Gotthard-Basistunnel. Direction to - EAST. Trains in tunnel - 1 Reason - Directions are different.
+2018-02-08 23:19:18 INFO  ConsoleHelper:11 - Train: №21, direction to WEST. is waiting near Tunnel - Gotthard-Basistunnel. Direction to - EAST. Trains in tunnel - 1 Reason - Directions are different.
+2018-02-08 23:19:18 INFO  ConsoleHelper:11 - Train: №19, direction to EAST. drove in Tunnel - Gotthard-Basistunnel. Direction to - EAST. Trains in tunnel - 2.
+2018-02-08 23:19:18 INFO  ConsoleHelper:11 - Train: №12, direction to WEST. is waiting near Tunnel - Gotthard-Basistunnel. Direction to - EAST. Trains in tunnel - 2 Reason - Tunnel is full.
+2018-02-08 23:19:19 INFO  ConsoleHelper:11 - Train: №14, direction to SOUTH. is approaching to Tunnel - Seikan Tunnel. Direction to - NONE. Trains in tunnel - 0.
+2018-02-08 23:19:19 INFO  ConsoleHelper:11 - Train: №15, direction to WEST. is approaching to Tunnel - Seikan Tunnel. Direction to - NONE. Trains in tunnel - 0.
+2018-02-08 23:19:19 INFO  ConsoleHelper:11 - Train: №17, direction to NORTH. is approaching to Tunnel - Seikan Tunnel. Direction to - NONE. Trains in tunnel - 0.
+2018-02-08 23:19:19 INFO  ConsoleHelper:11 - Train: №16, direction to SOUTH. is approaching to Tunnel - Seikan Tunnel. Direction to - NONE. Trains in tunnel - 0.
+2018-02-08 23:19:19 INFO  ConsoleHelper:11 - Train: №11, direction to NORTH. is approaching to Tunnel - Seikan Tunnel. Direction to - NONE. Trains in tunnel - 0.
+2018-02-08 23:19:19 INFO  ConsoleHelper:11 - Train: №18, direction to WEST. is approaching to Tunnel - Seikan Tunnel. Direction to - NONE. Trains in tunnel - 0.
+2018-02-08 23:19:19 INFO  ConsoleHelper:11 - Train: №22, direction to EAST. is approaching to Tunnel - Seikan Tunnel. Direction to - NONE. Trains in tunnel - 0.
+2018-02-08 23:19:20 INFO  ConsoleHelper:11 - Train: №22, direction to EAST. drove in Tunnel - Seikan Tunnel. Direction to - EAST. Trains in tunnel - 1.
+2018-02-08 23:19:20 INFO  ConsoleHelper:11 - Train: №16, direction to SOUTH. is waiting near Tunnel - Seikan Tunnel. Direction to - EAST. Trains in tunnel - 1 Reason - Directions are different.
+2018-02-08 23:19:20 INFO  ConsoleHelper:11 - Train: №17, direction to NORTH. is waiting near Tunnel - Seikan Tunnel. Direction to - EAST. Trains in tunnel - 1 Reason - Directions are different.
+2018-02-08 23:19:20 INFO  ConsoleHelper:11 - Train: №11, direction to NORTH. is waiting near Tunnel - Seikan Tunnel. Direction to - EAST. Trains in tunnel - 1 Reason - Directions are different.
+2018-02-08 23:19:20 INFO  ConsoleHelper:11 - Train: №18, direction to WEST. is waiting near Tunnel - Seikan Tunnel. Direction to - EAST. Trains in tunnel - 1 Reason - Directions are different.
+2018-02-08 23:19:20 INFO  ConsoleHelper:11 - Train: №14, direction to SOUTH. is waiting near Tunnel - Seikan Tunnel. Direction to - EAST. Trains in tunnel - 1 Reason - Directions are different.
+2018-02-08 23:19:20 INFO  ConsoleHelper:11 - Train: №15, direction to WEST. is waiting near Tunnel - Seikan Tunnel. Direction to - EAST. Trains in tunnel - 1 Reason - Directions are different.
+2018-02-08 23:19:22 INFO  ConsoleHelper:11 - Train: №22, direction to EAST. drove out Tunnel - Seikan Tunnel. Direction to - NONE. Trains in tunnel - 0.
+2018-02-08 23:19:22 INFO  ConsoleHelper:11 - Train: №16, direction to SOUTH. drove in Tunnel - Seikan Tunnel. Direction to - NONE. Trains in tunnel - 1.
+2018-02-08 23:19:23 INFO  ConsoleHelper:11 - Train: №19, direction to EAST. drove out Tunnel - Gotthard-Basistunnel. Direction to - EAST. Trains in tunnel - 1.
+2018-02-08 23:19:23 INFO  ConsoleHelper:11 - Train: №13, direction to EAST. drove out Tunnel - Gotthard-Basistunnel. Direction to - NONE. Trains in tunnel - 0.
+2018-02-08 23:19:23 INFO  ConsoleHelper:11 - Train: №20, direction to NORTH. drove in Tunnel - Gotthard-Basistunnel. Direction to - NONE. Trains in tunnel - 1.
+2018-02-08 23:19:23 INFO  ConsoleHelper:11 - Train: №21, direction to WEST. drove in Tunnel - Gotthard-Basistunnel. Direction to - NONE. Trains in tunnel - 2.
+2018-02-08 23:19:25 INFO  ConsoleHelper:11 - Train: №16, direction to SOUTH. drove out Tunnel - Seikan Tunnel. Direction to - NONE. Trains in tunnel - 0.
+2018-02-08 23:19:25 INFO  ConsoleHelper:11 - Train: №17, direction to NORTH. drove in Tunnel - Seikan Tunnel. Direction to - NONE. Trains in tunnel - 1.
+2018-02-08 23:19:27 INFO  ConsoleHelper:11 - Train: №17, direction to NORTH. drove out Tunnel - Seikan Tunnel. Direction to - NONE. Trains in tunnel - 0.
+2018-02-08 23:19:27 INFO  ConsoleHelper:11 - Train: №11, direction to NORTH. drove in Tunnel - Seikan Tunnel. Direction to - NONE. Trains in tunnel - 1.
+2018-02-08 23:19:28 INFO  ConsoleHelper:11 - Train: №22, direction to EAST. is arrived to station.
+2018-02-08 23:19:28 INFO  ConsoleHelper:11 - Train: №21, direction to WEST. drove out Tunnel - Gotthard-Basistunnel. Direction to - NONE. Trains in tunnel - 1.
+2018-02-08 23:19:28 INFO  ConsoleHelper:11 - Train: №20, direction to NORTH. drove out Tunnel - Gotthard-Basistunnel. Direction to - NONE. Trains in tunnel - 0.
+2018-02-08 23:19:28 INFO  ConsoleHelper:11 - Train: №12, direction to WEST. drove in Tunnel - Gotthard-Basistunnel. Direction to - WEST. Trains in tunnel - 1.
+2018-02-08 23:19:29 INFO  ConsoleHelper:11 - Train: №13, direction to EAST. is arrived to station.
+2018-02-08 23:19:29 INFO  ConsoleHelper:11 - Train: №19, direction to EAST. is arrived to station.
+2018-02-08 23:19:29 INFO  ConsoleHelper:11 - Train: №11, direction to NORTH. drove out Tunnel - Seikan Tunnel. Direction to - NONE. Trains in tunnel - 0.
+2018-02-08 23:19:29 INFO  ConsoleHelper:11 - Train: №18, direction to WEST. drove in Tunnel - Seikan Tunnel. Direction to - NONE. Trains in tunnel - 1.
+2018-02-08 23:19:30 INFO  ConsoleHelper:11 - Train: №16, direction to SOUTH. is arrived to station.
+2018-02-08 23:19:32 INFO  ConsoleHelper:11 - Train: №18, direction to WEST. drove out Tunnel - Seikan Tunnel. Direction to - NONE. Trains in tunnel - 0.
+2018-02-08 23:19:32 INFO  ConsoleHelper:11 - Train: №14, direction to SOUTH. drove in Tunnel - Seikan Tunnel. Direction to - NONE. Trains in tunnel - 1.
+2018-02-08 23:19:33 INFO  ConsoleHelper:11 - Train: №21, direction to WEST. is arrived to station.
+2018-02-08 23:19:34 INFO  ConsoleHelper:11 - Train: №12, direction to WEST. drove out Tunnel - Gotthard-Basistunnel. Direction to - NONE. Trains in tunnel - 0.
+2018-02-08 23:19:34 INFO  ConsoleHelper:11 - Train: №14, direction to SOUTH. drove out Tunnel - Seikan Tunnel. Direction to - NONE. Trains in tunnel - 0.
+2018-02-08 23:19:34 INFO  ConsoleHelper:11 - Train: №15, direction to WEST. drove in Tunnel - Seikan Tunnel. Direction to - NONE. Trains in tunnel - 1.
+2018-02-08 23:19:34 INFO  ConsoleHelper:11 - Train: №17, direction to NORTH. is arrived to station.
+2018-02-08 23:19:36 INFO  ConsoleHelper:11 - Train: №20, direction to NORTH. is arrived to station.
+2018-02-08 23:19:36 INFO  ConsoleHelper:11 - Train: №18, direction to WEST. is arrived to station.
+2018-02-08 23:19:36 INFO  ConsoleHelper:11 - Train: №15, direction to WEST. drove out Tunnel - Seikan Tunnel. Direction to - NONE. Trains in tunnel - 0.
+2018-02-08 23:19:37 INFO  ConsoleHelper:11 - Train: №11, direction to NORTH. is arrived to station.
+2018-02-08 23:19:38 INFO  ConsoleHelper:11 - Train: №12, direction to WEST. is arrived to station.
+2018-02-08 23:19:40 INFO  ConsoleHelper:11 - Train: №15, direction to WEST. is arrived to station.
+2018-02-08 23:19:41 INFO  ConsoleHelper:11 - Train: №14, direction to SOUTH. is arrived to station.
+2018-02-08 23:25:46 INFO  ConsoleHelper:11 - Train: №11. Direction - NORTH, is departed from depot.
+2018-02-08 23:25:46 INFO  ConsoleHelper:11 - Train: №12. Direction - WEST, is departed from depot.
+2018-02-08 23:25:47 INFO  ConsoleHelper:11 - Train: №13. Direction - EAST, is departed from depot.
+2018-02-08 23:25:47 INFO  ConsoleHelper:11 - Train: №14. Direction - SOUTH, is departed from depot.
+2018-02-08 23:25:47 INFO  ConsoleHelper:11 - Train: №15. Direction - WEST, is departed from depot.
+2018-02-08 23:25:47 INFO  ConsoleHelper:11 - Train: №16. Direction - SOUTH, is departed from depot.
+2018-02-08 23:25:47 INFO  ConsoleHelper:11 - Train: №17. Direction - NORTH, is departed from depot.
+2018-02-08 23:25:47 INFO  ConsoleHelper:11 - Train: №18. Direction - WEST, is departed from depot.
+2018-02-08 23:25:47 INFO  ConsoleHelper:11 - Train: №19. Direction - EAST, is departed from depot.
+2018-02-08 23:25:47 INFO  ConsoleHelper:11 - Train: №20. Direction - NORTH, is departed from depot.
+2018-02-08 23:25:47 INFO  ConsoleHelper:11 - Train: №21. Direction - WEST, is departed from depot.
+2018-02-08 23:25:47 INFO  ConsoleHelper:11 - Train: №22. Direction - EAST, is departed from depot.
+2018-02-08 23:25:47 INFO  ConsoleHelper:11 - Train: №22. Direction - EAST, is approaching to Tunnel: Gotthard-Basistunnel. Direction - NONE. Trains in tunnel - 0.
+2018-02-08 23:25:47 INFO  ConsoleHelper:11 - Train: №14. Direction - SOUTH, is approaching to Tunnel: Gotthard-Basistunnel. Direction - NONE. Trains in tunnel - 0.
+2018-02-08 23:25:47 INFO  ConsoleHelper:11 - Train: №11. Direction - NORTH, is approaching to Tunnel: Gotthard-Basistunnel. Direction - NONE. Trains in tunnel - 0.
+2018-02-08 23:25:47 INFO  ConsoleHelper:11 - Train: №12. Direction - WEST, is approaching to Tunnel: Gotthard-Basistunnel. Direction - NONE. Trains in tunnel - 0.
+2018-02-08 23:25:48 INFO  ConsoleHelper:11 - Train: №22. Direction - EAST, drove in Tunnel: Gotthard-Basistunnel. Direction - EAST. Trains in tunnel - 1.
+2018-02-08 23:25:48 INFO  ConsoleHelper:11 - Train: №14. Direction - SOUTH, is waiting near Tunnel: Gotthard-Basistunnel. Direction - EAST. Trains in tunnel - 1 Reason - Directions are different.
+2018-02-08 23:25:48 INFO  ConsoleHelper:11 - Train: №12. Direction - WEST, is waiting near Tunnel: Gotthard-Basistunnel. Direction - EAST. Trains in tunnel - 1 Reason - Directions are different.
+2018-02-08 23:25:48 INFO  ConsoleHelper:11 - Train: №11. Direction - NORTH, is waiting near Tunnel: Gotthard-Basistunnel. Direction - EAST. Trains in tunnel - 1 Reason - Directions are different.
+2018-02-08 23:25:49 INFO  ConsoleHelper:11 - Train: №16. Direction - SOUTH, is approaching to Tunnel: Seikan Tunnel. Direction - NONE. Trains in tunnel - 0.
+2018-02-08 23:25:49 INFO  ConsoleHelper:11 - Train: №21. Direction - WEST, is approaching to Tunnel: Seikan Tunnel. Direction - NONE. Trains in tunnel - 0.
+2018-02-08 23:25:49 INFO  ConsoleHelper:11 - Train: №18. Direction - WEST, is approaching to Tunnel: Seikan Tunnel. Direction - NONE. Trains in tunnel - 0.
+2018-02-08 23:25:49 INFO  ConsoleHelper:11 - Train: №19. Direction - EAST, is approaching to Tunnel: Seikan Tunnel. Direction - NONE. Trains in tunnel - 0.
+2018-02-08 23:25:49 INFO  ConsoleHelper:11 - Train: №20. Direction - NORTH, is approaching to Tunnel: Seikan Tunnel. Direction - NONE. Trains in tunnel - 0.
+2018-02-08 23:25:49 INFO  ConsoleHelper:11 - Train: №17. Direction - NORTH, is approaching to Tunnel: Seikan Tunnel. Direction - NONE. Trains in tunnel - 0.
+2018-02-08 23:25:49 INFO  ConsoleHelper:11 - Train: №15. Direction - WEST, is approaching to Tunnel: Seikan Tunnel. Direction - NONE. Trains in tunnel - 0.
+2018-02-08 23:25:49 INFO  ConsoleHelper:11 - Train: №13. Direction - EAST, is approaching to Tunnel: Seikan Tunnel. Direction - NONE. Trains in tunnel - 0.
+2018-02-08 23:25:49 INFO  ConsoleHelper:11 - Train: №16. Direction - SOUTH, drove in Tunnel: Seikan Tunnel. Direction - SOUTH. Trains in tunnel - 1.
+2018-02-08 23:25:49 INFO  ConsoleHelper:11 - Train: №21. Direction - WEST, is waiting near Tunnel: Seikan Tunnel. Direction - SOUTH. Trains in tunnel - 1 Reason - Directions are different.
+2018-02-08 23:25:49 INFO  ConsoleHelper:11 - Train: №18. Direction - WEST, is waiting near Tunnel: Seikan Tunnel. Direction - SOUTH. Trains in tunnel - 1 Reason - Directions are different.
+2018-02-08 23:25:49 INFO  ConsoleHelper:11 - Train: №20. Direction - NORTH, is waiting near Tunnel: Seikan Tunnel. Direction - SOUTH. Trains in tunnel - 1 Reason - Directions are different.
+2018-02-08 23:25:49 INFO  ConsoleHelper:11 - Train: №19. Direction - EAST, is waiting near Tunnel: Seikan Tunnel. Direction - SOUTH. Trains in tunnel - 1 Reason - Directions are different.
+2018-02-08 23:25:49 INFO  ConsoleHelper:11 - Train: №17. Direction - NORTH, is waiting near Tunnel: Seikan Tunnel. Direction - SOUTH. Trains in tunnel - 1 Reason - Directions are different.
+2018-02-08 23:25:50 INFO  ConsoleHelper:11 - Train: №13. Direction - EAST, is waiting near Tunnel: Seikan Tunnel. Direction - SOUTH. Trains in tunnel - 1 Reason - Directions are different.
+2018-02-08 23:25:50 INFO  ConsoleHelper:11 - Train: №15. Direction - WEST, is waiting near Tunnel: Seikan Tunnel. Direction - SOUTH. Trains in tunnel - 1 Reason - Directions are different.
+2018-02-08 23:25:52 INFO  ConsoleHelper:11 - Train: №16. Direction - SOUTH, drove out Tunnel: Seikan Tunnel. Direction - NONE. Trains in tunnel - 0.
+2018-02-08 23:25:52 INFO  ConsoleHelper:11 - Train: №21. Direction - WEST, drove in Tunnel: Seikan Tunnel. Direction - NONE. Trains in tunnel - 1.
+2018-02-08 23:25:53 INFO  ConsoleHelper:11 - Train: №22. Direction - EAST, drove out Tunnel: Gotthard-Basistunnel. Direction - NONE. Trains in tunnel - 0.
+2018-02-08 23:25:53 INFO  ConsoleHelper:11 - Train: №14. Direction - SOUTH, drove in Tunnel: Gotthard-Basistunnel. Direction - NONE. Trains in tunnel - 1.
+2018-02-08 23:25:54 INFO  ConsoleHelper:11 - Train: №21. Direction - WEST, drove out Tunnel: Seikan Tunnel. Direction - NONE. Trains in tunnel - 0.
+2018-02-08 23:25:54 INFO  ConsoleHelper:11 - Train: №18. Direction - WEST, drove in Tunnel: Seikan Tunnel. Direction - NONE. Trains in tunnel - 1.
+2018-02-08 23:25:56 INFO  ConsoleHelper:11 - Train: №18. Direction - WEST, drove out Tunnel: Seikan Tunnel. Direction - NONE. Trains in tunnel - 0.
+2018-02-08 23:25:56 INFO  ConsoleHelper:11 - Train: №20. Direction - NORTH, drove in Tunnel: Seikan Tunnel. Direction - NONE. Trains in tunnel - 1.
+2018-02-08 23:25:57 INFO  ConsoleHelper:11 - Train: №16. Direction - SOUTH, is arrived to station.
+2018-02-08 23:25:58 INFO  ConsoleHelper:11 - Train: №14. Direction - SOUTH, drove out Tunnel: Gotthard-Basistunnel. Direction - NONE. Trains in tunnel - 0.
+2018-02-08 23:25:58 INFO  ConsoleHelper:11 - Train: №12. Direction - WEST, drove in Tunnel: Gotthard-Basistunnel. Direction - NONE. Trains in tunnel - 1.
+2018-02-08 23:25:58 INFO  ConsoleHelper:11 - Train: №21. Direction - WEST, is arrived to station.
+2018-02-08 23:25:58 INFO  ConsoleHelper:11 - Train: №22. Direction - EAST, is arrived to station.
+2018-02-08 23:25:59 INFO  ConsoleHelper:11 - Train: №20. Direction - NORTH, drove out Tunnel: Seikan Tunnel. Direction - NONE. Trains in tunnel - 0.
+2018-02-08 23:25:59 INFO  ConsoleHelper:11 - Train: №19. Direction - EAST, drove in Tunnel: Seikan Tunnel. Direction - NONE. Trains in tunnel - 1.
+2018-02-08 23:26:01 INFO  ConsoleHelper:11 - Train: №18. Direction - WEST, is arrived to station.
+2018-02-08 23:26:01 INFO  ConsoleHelper:11 - Train: №19. Direction - EAST, drove out Tunnel: Seikan Tunnel. Direction - NONE. Trains in tunnel - 0.
+2018-02-08 23:26:01 INFO  ConsoleHelper:11 - Train: №17. Direction - NORTH, drove in Tunnel: Seikan Tunnel. Direction - NONE. Trains in tunnel - 1.
+2018-02-08 23:26:03 INFO  ConsoleHelper:11 - Train: №12. Direction - WEST, drove out Tunnel: Gotthard-Basistunnel. Direction - NONE. Trains in tunnel - 0.
+2018-02-08 23:26:03 INFO  ConsoleHelper:11 - Train: №11. Direction - NORTH, drove in Tunnel: Gotthard-Basistunnel. Direction - NONE. Trains in tunnel - 1.
+2018-02-08 23:26:03 INFO  ConsoleHelper:11 - Train: №17. Direction - NORTH, drove out Tunnel: Seikan Tunnel. Direction - NONE. Trains in tunnel - 0.
+2018-02-08 23:26:03 INFO  ConsoleHelper:11 - Train: №13. Direction - EAST, drove in Tunnel: Seikan Tunnel. Direction - NONE. Trains in tunnel - 1.
+2018-02-08 23:26:04 INFO  ConsoleHelper:11 - Train: №14. Direction - SOUTH, is arrived to station.
+2018-02-08 23:26:05 INFO  ConsoleHelper:11 - Train: №20. Direction - NORTH, is arrived to station.
+2018-02-08 23:26:05 INFO  ConsoleHelper:11 - Train: №19. Direction - EAST, is arrived to station.
+2018-02-08 23:26:05 INFO  ConsoleHelper:11 - Train: №13. Direction - EAST, drove out Tunnel: Seikan Tunnel. Direction - NONE. Trains in tunnel - 0.
+2018-02-08 23:26:05 INFO  ConsoleHelper:11 - Train: №15. Direction - WEST, drove in Tunnel: Seikan Tunnel. Direction - NONE. Trains in tunnel - 1.
+2018-02-08 23:26:06 INFO  ConsoleHelper:11 - Train: №12. Direction - WEST, is arrived to station.
+2018-02-08 23:26:08 INFO  ConsoleHelper:11 - Train: №11. Direction - NORTH, drove out Tunnel: Gotthard-Basistunnel. Direction - NONE. Trains in tunnel - 0.
+2018-02-08 23:26:08 INFO  ConsoleHelper:11 - Train: №15. Direction - WEST, drove out Tunnel: Seikan Tunnel. Direction - NONE. Trains in tunnel - 0.
+2018-02-08 23:26:09 INFO  ConsoleHelper:11 - Train: №17. Direction - NORTH, is arrived to station.
+2018-02-08 23:26:11 INFO  ConsoleHelper:11 - Train: №13. Direction - EAST, is arrived to station.
+2018-02-08 23:26:12 INFO  ConsoleHelper:11 - Train: №15. Direction - WEST, is arrived to station.
+2018-02-08 23:26:15 INFO  ConsoleHelper:11 - Train: №11. Direction - NORTH, is arrived to station.

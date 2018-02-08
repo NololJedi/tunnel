@@ -1,8 +1,8 @@
 package by.epam.tunnel.entities;
 
+import by.epam.tunnel.entities.trainstates.TrainApproachingTunnelState;
 import by.epam.tunnel.entities.trainstates.TrainDroveInTunnelState;
 import by.epam.tunnel.entities.trainstates.TrainDroveOutTunnelState;
-import by.epam.tunnel.entities.trainstates.TrainNearTunnelState;
 import by.epam.tunnel.entities.trainstates.TrainState;
 
 import java.util.Random;
@@ -16,14 +16,24 @@ public class TrainStationDispatcher {
     private final static int TUNNEL_INDEX = 10;
 
     private static TrainStationDispatcher instance = null;
-    private static AtomicBoolean isInstanceAvailable = new AtomicBoolean(true);
+    private static AtomicBoolean isInstanceAvailable;
 
-    private static Lock lock = new ReentrantLock();
-    private final Condition gotthardAvailable = lock.newCondition();
-    private final Condition seikanAvailable = lock.newCondition();
+    private final static Lock lock;
+    private final static Condition gotthardAvailable;
+    private final static Condition seikanAvailable;
 
-    private final Tunnel gotthardBasisTunnel = new Tunnel("Gotthard-Basistunnel", 15, 70, 2);
-    private final Tunnel seikanTunnel = new Tunnel("Seikan Tunnel", 45, 70, 3);
+    private final static Tunnel gotthardBasisTunnel;
+    private final static Tunnel seikanTunnel;
+
+    static {
+        isInstanceAvailable = new AtomicBoolean(true);
+        lock = new ReentrantLock();
+        gotthardAvailable = lock.newCondition();
+        seikanAvailable = lock.newCondition();
+
+        gotthardBasisTunnel = new Tunnel("Gotthard-Basistunnel", 15, 70, 2);
+        seikanTunnel = new Tunnel("Seikan Tunnel", 45, 70, 3);
+    }
 
     private TrainStationDispatcher() {
     }
@@ -57,6 +67,16 @@ public class TrainStationDispatcher {
     }
 
     public void observeTunnel(Train train, int currentTrainDistance, Tunnel tunnel) {
+        if (train == null) {
+            throw new IllegalArgumentException("Train is null!");
+        }
+        if (currentTrainDistance < 0) {
+            throw new IllegalArgumentException("Incorrect current train distance, bellow zero!");
+        }
+        if (tunnel == null) {
+            throw new IllegalArgumentException("Tunnel is null!");
+        }
+
         Condition condition = null;
 
         if (tunnel.equals(gotthardBasisTunnel)) {
@@ -70,8 +90,8 @@ public class TrainStationDispatcher {
         int finishTunnelPoint = tunnel.getTunnelFinishPoint();
 
         if (startTunnelPoint == currentTrainDistance + TUNNEL_INDEX) {
-            TrainState trainNearTunnelState = new TrainNearTunnelState(train, tunnel);
-            train.setTrainState(trainNearTunnelState);
+            TrainState trainApproachingTunnelState = new TrainApproachingTunnelState(train, tunnel);
+            train.setTrainState(trainApproachingTunnelState);
         }
 
         lock.lock();
@@ -82,12 +102,7 @@ public class TrainStationDispatcher {
                 TrainState trainInTunnelState = new TrainDroveInTunnelState(train, tunnel);
                 train.setTrainState(trainInTunnelState);
             }
-        } finally {
-            lock.unlock();
-        }
 
-        lock.lock();
-        try {
             if (finishTunnelPoint == currentTrainDistance) {
                 tunnel.trainDroveOut(train, condition);
 

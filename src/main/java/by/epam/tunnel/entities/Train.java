@@ -14,10 +14,11 @@ public class Train extends Thread {
 
     private static final long SPEED_INDEX = 120;
 
-    private TrainStationDispatcher trainStationDispatcher;
-    private TrainState trainState;
     private final Direction direction;
     private final int distance;
+
+    private TrainStationDispatcher trainStationDispatcher;
+    private TrainState trainState;
 
     public Train(Direction direction, int distance) {
         this.direction = direction;
@@ -53,6 +54,10 @@ public class Train extends Thread {
     }
 
     public void setTrainState(TrainState trainState) {
+        if (trainState == null) {
+            throw new IllegalArgumentException("Check input train state!");
+        }
+
         this.trainState = trainState;
     }
 
@@ -79,7 +84,7 @@ public class Train extends Thread {
 
     @Override
     public String toString() {
-        String result = String.format("Train: №%d, direction to %s.", getId(), getDirection());
+        String result = String.format("Train: №%d. Direction - %s", getId(), getDirection());
 
         return result;
     }
