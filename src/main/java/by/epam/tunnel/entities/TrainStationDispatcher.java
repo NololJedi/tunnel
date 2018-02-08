@@ -1,10 +1,11 @@
 package by.epam.tunnel.entities;
 
-import by.epam.tunnel.entities.trainstates.TrainDroveOutTunnelState;
 import by.epam.tunnel.entities.trainstates.TrainDroveInTunnelState;
+import by.epam.tunnel.entities.trainstates.TrainDroveOutTunnelState;
 import by.epam.tunnel.entities.trainstates.TrainNearTunnelState;
 import by.epam.tunnel.entities.trainstates.TrainState;
 
+import java.util.Random;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
@@ -18,11 +19,11 @@ public class TrainStationDispatcher {
     private static AtomicBoolean isInstanceAvailable = new AtomicBoolean(true);
 
     private static Lock lock = new ReentrantLock();
-    private final Condition everestAvailable = lock.newCondition();
-    private final Condition killerAvailable = lock.newCondition();
+    private final Condition gotthardAvailable = lock.newCondition();
+    private final Condition seikanAvailable = lock.newCondition();
 
-    private Tunnel tunnelEverest = new Tunnel("Everest", 15, 40, 1);
-    private Tunnel tunnelKiller = new Tunnel("Killer", 100, 150, 3);
+    private final Tunnel gotthardBasisTunnel = new Tunnel("Gotthard-Basistunnel", 15, 70, 2);
+    private final Tunnel seikanTunnel = new Tunnel("Seikan Tunnel", 45, 70, 3);
 
     private TrainStationDispatcher() {
     }
@@ -44,12 +45,27 @@ public class TrainStationDispatcher {
         return instance;
     }
 
-    public void observeTunnels(Train train, int currentTrainDistance) {
-        observeTunnel(train, currentTrainDistance, tunnelEverest, everestAvailable);
-        observeTunnel(train, currentTrainDistance, tunnelKiller, killerAvailable);
+    public Tunnel guideTrainToTunnel() {
+        Random random = new Random();
+        boolean randomBoolean = random.nextBoolean();
+
+        if (randomBoolean) {
+            return gotthardBasisTunnel;
+        } else {
+            return seikanTunnel;
+        }
     }
 
-    private void observeTunnel(Train train, int currentTrainDistance, Tunnel tunnel, Condition condition) {
+    public void observeTunnel(Train train, int currentTrainDistance, Tunnel tunnel) {
+        Condition condition = null;
+
+        if (tunnel.equals(gotthardBasisTunnel)) {
+            condition = gotthardAvailable;
+        }
+        if (tunnel.equals(seikanTunnel)) {
+            condition = seikanAvailable;
+        }
+
         int startTunnelPoint = tunnel.getTunnelStartPoint();
         int finishTunnelPoint = tunnel.getTunnelFinishPoint();
 
@@ -62,6 +78,7 @@ public class TrainStationDispatcher {
         try {
             if (startTunnelPoint == currentTrainDistance) {
                 tunnel.trainDroveIn(train, condition);
+
                 TrainState trainInTunnelState = new TrainDroveInTunnelState(train, tunnel);
                 train.setTrainState(trainInTunnelState);
             }
@@ -73,6 +90,7 @@ public class TrainStationDispatcher {
         try {
             if (finishTunnelPoint == currentTrainDistance) {
                 tunnel.trainDroveOut(train, condition);
+
                 TrainState trainAfterTunnelState = new TrainDroveOutTunnelState(train, tunnel);
                 train.setTrainState(trainAfterTunnelState);
             }

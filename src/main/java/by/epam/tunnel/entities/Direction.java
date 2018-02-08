@@ -2,6 +2,6 @@ package by.epam.tunnel.entities;
 
 public enum Direction {
 
-    NORTH, SOUTH, NONE
+    NORTH, SOUTH, EAST, WEST, NONE
 
 }
