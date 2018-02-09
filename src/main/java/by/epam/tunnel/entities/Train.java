@@ -24,11 +24,12 @@ public class Train extends Thread {
         this.direction = direction;
         this.distance = distance;
         this.trainStationDispatcher = TrainStationDispatcher.getInstance();
-        trainState = new TrainDepartedState(this);
     }
 
     @Override
     public void run() {
+        trainState = new TrainDepartedState(this);
+
         Tunnel tunnel = trainStationDispatcher.guideTrainToTunnel();
 
         for (int index = 0; index < distance; index++) {
@@ -72,8 +73,6 @@ public class Train extends Thread {
         Train train = (Train) object;
 
         return distance == train.distance &&
-                Objects.equals(trainStationDispatcher, train.trainStationDispatcher) &&
-                Objects.equals(trainState, train.trainState) &&
                 direction == train.direction;
     }
 
