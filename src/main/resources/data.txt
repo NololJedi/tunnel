@@ -1,24 +1,23 @@
 type=Train direction=NORTH distance=200
 type=Train direction=WEST distance=250
-type=Train direction=EAST distance=2s00
+type=Train direction=EAST distance=200
 type=Train direction=SOUTH distance=200
-type=Train directionNORTH distance=200
+type=Train direction=NORTH distance=200
 type=Train direction=NORTH distance=300
 type=Train direction=SOUTH distance=100
-type=Train direction=NONE distance=500
+type=Train direction=NORTH distance=500
 type=Train direction=WEST distance=200
-typeTrain direction=SOUTH distance=200
+type=Train direction=SOUTH distance=200
 type=Train direction=EAST distance=400
 type=Train direction=NORTH distance=200
 type=Train direction=EAST distance=600
-type=Train direction=NORTH distance=-200
+type=Train direction=NORTH distance=200
 type=Train direction=WEST distance=350
-type=Train direction=NORTH distance=!00
-type=Train,direction=SOUTH distance=200
+type=Train direction=NORTH distance=300
+type=Train direction=SOUTH distance=200
 type=Train direction=WEST distance=200
 type=Train direction=NORTH distance=200
 type=Train direction=SOUTH distance=200
 type=Train direction=WEST distance=200
 type=Train direction=NORTH distance=200
 type=Train direction=NORTH distance=200
-

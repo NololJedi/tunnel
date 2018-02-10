@@ -2,7 +2,6 @@ package by.epam.tunnel.run;
 
 import by.epam.tunnel.entities.Train;
 import by.epam.tunnel.exceptions.DataLoadException;
-import by.epam.tunnel.exceptions.IncorrectParameterException;
 import by.epam.tunnel.util.LineParser;
 import by.epam.tunnel.util.creator.TrainCreator;
 import by.epam.tunnel.util.data.DataLoader;
@@ -51,25 +50,25 @@ public class TrainDirector {
         for (int listIndex = 0; listIndex < data.size(); listIndex++) {
             String line = data.get(listIndex);
 
-            try {
-                String[] parameters = LineParser.parseLine(line, LineParser.DATA_PARSER_INDICATOR);
-                boolean checkParameters = dataValidator.checkParameters(parameters);
+            String[] parameters = LineParser.parseLine(line, LineParser.DATA_PARSER_INDICATOR);
+            boolean checkParameters = dataValidator.checkParameters(parameters);
 
-                if (checkParameters) {
-                    Train train = trainCreator.createTrain(parameters);
-                    LOGGER.info(String.format("Train was created successfully from parameters - %s.", Arrays.toString(parameters)));
+            if (checkParameters) {
+                Train train = trainCreator.createTrain(parameters);
+                LOGGER.info(String.format("Train was created successfully from parameters - %s.", Arrays.toString(parameters)));
 
-                    trains.add(train);
-                } else {
-                    LOGGER.info(String.format("Incorrect parameters detected - %s. " +
-                            "Train can't be created", Arrays.toString(parameters)));
-                }
-            } catch (IllegalArgumentException | IncorrectParameterException e) {
-                LOGGER.warn("Train creation cause exception." + e.getLocalizedMessage());
+                trains.add(train);
+            } else {
+                LOGGER.info(String.format("Incorrect parameters detected - %s. Train can't be created",
+                        Arrays.toString(parameters)));
             }
+        }
 
+        if (trains.size() != 0) {
+            LOGGER.info("Trains were created successfully.");
         }
 
         return trains;
     }
+
 }

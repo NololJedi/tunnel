@@ -16,4 +16,5 @@ public class TrainDroveOutTunnelState implements TrainState {
     public long move() {
         return MAX_SPEED;
     }
+
 }

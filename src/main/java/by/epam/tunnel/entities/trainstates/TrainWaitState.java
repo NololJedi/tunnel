@@ -17,4 +17,5 @@ public class TrainWaitState implements TrainState {
     public long move() {
         return WAITING_INDEX;
     }
+
 }

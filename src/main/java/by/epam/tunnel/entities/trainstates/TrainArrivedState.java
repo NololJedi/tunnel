@@ -15,4 +15,5 @@ public class TrainArrivedState implements TrainState {
     public long move() {
         return BRAKE;
     }
+
 }

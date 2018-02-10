@@ -15,4 +15,5 @@ public class TrainDepartedState implements TrainState {
     public long move() {
         return START_SPEED;
     }
+
 }

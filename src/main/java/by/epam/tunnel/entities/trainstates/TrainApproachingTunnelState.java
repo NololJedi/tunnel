@@ -16,4 +16,5 @@ public class TrainApproachingTunnelState implements TrainState {
     public long move() {
         return SPEED_NEAR_TUNNEL;
     }
+
 }

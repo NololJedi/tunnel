@@ -5,12 +5,20 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/logs/log.txt" afterPath="$PROJECT_DIR$/logs/log.txt" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/Train.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/Train.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/TrainStationDispatcher.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/TrainStationDispatcher.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/Tunnel.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/Tunnel.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/trainstates/TrainApproachingTunnelState.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/trainstates/TrainApproachingTunnelState.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/trainstates/TrainArrivedState.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/trainstates/TrainArrivedState.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/trainstates/TrainDepartedState.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/trainstates/TrainDepartedState.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/trainstates/TrainDroveInTunnelState.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/trainstates/TrainDroveInTunnelState.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/trainstates/TrainDroveOutTunnelState.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/trainstates/TrainDroveOutTunnelState.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/trainstates/TrainWaitState.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/trainstates/TrainWaitState.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/tunnel/exceptions/IncorrectParameterException.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/tunnel/run/TrainDirector.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/tunnel/run/TrainDirector.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/tunnel/run/TunnelRunner.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/tunnel/run/TunnelRunner.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/tunnel/util/LineParser.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/tunnel/util/LineParser.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/tunnel/util/creator/TrainCreator.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/tunnel/util/creator/TrainCreator.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/tunnel/util/data/DataLoader.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/tunnel/util/data/DataLoader.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/tunnel/util/data/DataValidator.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/tunnel/util/data/DataValidator.java" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/data.txt" afterPath="$PROJECT_DIR$/src/main/resources/data.txt" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/epam/tunnel/util/creator/TrainCreatorTest.java" afterPath="$PROJECT_DIR$/src/test/java/by/epam/tunnel/util/creator/TrainCreatorTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,37 +30,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TunnelRunner.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/tunnel/run/TunnelRunner.java">
+    <leaf>
+      <file leaf-file-name="LineParser.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/tunnel/util/LineParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="62">
-              <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+            <state relative-caret-position="170">
+              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="method#parseLine#0;class#LineParser#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TrainDirector.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/tunnel/run/TrainDirector.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="53" column="17" lean-forward="true" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="log.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/logs/log.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="6" column="63" lean-forward="false" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -107,17 +93,9 @@
         <option value="$PROJECT_DIR$/src/main/java/by/epam/tunnel/util/ConsoleHelper.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/trainstates/TrainInTunnelState.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/trainstates/TrainAfterTunnelState.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/trainstates/TrainArrivedState.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/Direction.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/trainstates/TrainWaitingState.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/trainstates/TrainNearTunnelState.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/trainstates/TrainApproachingTunnelState.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/trainstates/TrainDepartedState.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/trainstates/TrainDroveInTunnelState.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/trainstates/TrainDroveOutTunnelState.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/trainstates/TrainWaitState.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/TrainStationDispatcher.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/Tunnel.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/epam/tunnel/exceptions/DataLoadException.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/epam/tunnel/exceptions/IncorrectParameterException.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/epam/tunnel/util/data/DataLoader.java" />
@@ -127,13 +105,21 @@
         <option value="$PROJECT_DIR$/src/main/java/by/epam/tunnel/util/data/DataValidator.java" />
         <option value="$PROJECT_DIR$/src/test/java/by/epam/tunnel/util/DataProviderSource.java" />
         <option value="$PROJECT_DIR$/src/test/java/by/epam/tunnel/util/data/DataValidatorTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/by/epam/tunnel/util/creator/TrainCreatorTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/epam/tunnel/util/creator/TrainCreator.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/data.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/by/epam/tunnel/run/TunnelRunner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/trainstates/TrainApproachingTunnelState.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/trainstates/TrainArrivedState.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/trainstates/TrainDepartedState.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/trainstates/TrainDroveInTunnelState.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/trainstates/TrainDroveOutTunnelState.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/trainstates/TrainWaitState.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/Train.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/TrainStationDispatcher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/Tunnel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/epam/tunnel/util/creator/TrainCreator.java" />
+        <option value="$PROJECT_DIR$/src/test/java/by/epam/tunnel/util/creator/TrainCreatorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/data.txt" />
         <option value="$PROJECT_DIR$/logs/log.txt" />
         <option value="$PROJECT_DIR$/src/main/java/by/epam/tunnel/run/TrainDirector.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/epam/tunnel/run/TunnelRunner.java" />
       </list>
     </option>
   </component>
@@ -174,8 +160,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -183,105 +168,20 @@
               <item name="tunnel" type="b2602c69:ProjectViewProjectNode" />
               <item name="tunnel" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="tunnel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tunnel" type="462c0819:PsiDirectoryNode" />
-              <item name="logs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tunnel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tunnel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tunnel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tunnel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tunnel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tunnel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tunnel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tunnel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tunnel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tunnel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tunnel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tunnel" type="462c0819:PsiDirectoryNode" />
-              <item name="entities" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tunnel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tunnel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tunnel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tunnel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tunnel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tunnel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tunnel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tunnel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tunnel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tunnel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="creator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tunnel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tunnel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Finished_Epam/Task_2/gameroom" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -537,7 +437,8 @@
       <workItem from="1518016608535" duration="3600000" />
       <workItem from="1518033948055" duration="436000" />
       <workItem from="1518110393557" duration="10448000" />
-      <workItem from="1518197558126" duration="10494000" />
+      <workItem from="1518197558126" duration="10577000" />
+      <workItem from="1518257173065" duration="2643000" />
     </task>
     <task id="LOCAL-00001" summary="First changes.">
       <created>1517836922457</created>
@@ -567,14 +468,21 @@
       <option name="project" value="LOCAL" />
       <updated>1518121692690</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Finish soon. Need some changes.">
+      <created>1518208407684</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1518208407684</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_tunnel - 2018.02.09 at 22h 39m 39s.xml">
+    <history-entry file="All_in_tunnel - 2018.02.10 at 14h 25m 23s.xml">
       <configuration name="All in tunnel" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_tunnel - 2018.02.09 at 22h 52m 45s.xml">
+    <history-entry file="All_in_tunnel - 2018.02.10 at 14h 34m 21s.xml">
       <configuration name="All in tunnel" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TrainCreatorTest - 2018.02.09 at 22h 40m 58s.xml">
@@ -603,12 +511,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51840000" />
+    <option name="totallyTimeSpent" value="54566000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.9590551" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -617,25 +526,24 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15905511" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2489019" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27265626" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16692914" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -648,7 +556,8 @@
     <MESSAGE value="First changes." />
     <MESSAGE value="Need some changes in Tunnel.class, Train.class, TrainState.class." />
     <MESSAGE value="Finish soon." />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish soon." />
+    <MESSAGE value="Finish soon. Need some changes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish soon. Need some changes." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -678,9 +587,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="23" lean-forward="false" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -706,7 +613,6 @@
         <state relative-caret-position="561">
           <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding>
-            <element signature="method#Train#0;class#Train#0" expanded="false" />
             <element signature="method#run#0;class#Train#0" expanded="false" />
             <element signature="method#move#0;class#Train#0" expanded="false" />
             <element signature="method#setTrainState#0;class#Train#0" expanded="false" />
@@ -724,6 +630,7 @@
             <element signature="method#TrainStationDispatcher#0;class#TrainStationDispatcher#0" expanded="false" />
             <element signature="method#getInstance#0;class#TrainStationDispatcher#0" expanded="false" />
             <element signature="method#guideTrainToTunnel#0;class#TrainStationDispatcher#0" expanded="false" />
+            <element signature="method#observeTunnel#0;class#TrainStationDispatcher#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -732,9 +639,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="27" lean-forward="false" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -760,7 +665,6 @@
         <state relative-caret-position="374">
           <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding>
-            <element signature="method#Train#0;class#Train#0" expanded="false" />
             <element signature="method#run#0;class#Train#0" expanded="false" />
             <element signature="method#move#0;class#Train#0" expanded="false" />
             <element signature="method#setTrainState#0;class#Train#0" expanded="false" />
@@ -778,6 +682,7 @@
             <element signature="method#TrainStationDispatcher#0;class#TrainStationDispatcher#0" expanded="false" />
             <element signature="method#getInstance#0;class#TrainStationDispatcher#0" expanded="false" />
             <element signature="method#guideTrainToTunnel#0;class#TrainStationDispatcher#0" expanded="false" />
+            <element signature="method#observeTunnel#0;class#TrainStationDispatcher#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -786,9 +691,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="27" lean-forward="true" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -825,121 +728,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/tunnel/util/ConsoleHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/trainstates/TrainState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/Direction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/trainstates/TrainWaitState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="69" lean-forward="false" selection-start-line="10" selection-start-column="69" selection-end-line="10" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/trainstates/TrainDroveOutTunnelState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="64" lean-forward="false" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/trainstates/TrainDroveInTunnelState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="63" lean-forward="false" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/trainstates/TrainDepartedState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="method#TrainDepartedState#0;class#TrainDepartedState#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/trainstates/TrainArrivedState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-          <folding>
-            <element signature="method#TrainArrivedState#0;class#TrainArrivedState#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/TrainStationDispatcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="113" column="9" lean-forward="true" selection-start-line="113" selection-start-column="9" selection-end-line="113" selection-end-column="9" />
-          <folding>
-            <element signature="method#TrainStationDispatcher#0;class#TrainStationDispatcher#0" expanded="false" />
-            <element signature="method#getInstance#0;class#TrainStationDispatcher#0" expanded="false" />
-            <element signature="method#guideTrainToTunnel#0;class#TrainStationDispatcher#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/trainstates/TrainApproachingTunnelState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="67" lean-forward="false" selection-start-line="10" selection-start-column="67" selection-end-line="10" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/Tunnel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="129" column="29" lean-forward="false" selection-start-line="129" selection-start-column="29" selection-end-line="129" selection-end-column="29" />
-          <folding>
-            <element signature="method#Tunnel#0;class#Tunnel#0" expanded="false" />
-            <element signature="method#trainDroveIn#0;class#Tunnel#0" expanded="false" />
-            <element signature="method#trainDroveOut#0;class#Tunnel#0" expanded="false" />
-            <element signature="method#trainWait#0;class#Tunnel#0" expanded="false" />
-            <element signature="method#checkTunnelDirection#0;class#Tunnel#0" expanded="false" />
-            <element signature="method#equals#0;class#Tunnel#0" expanded="false" />
-            <element signature="method#hashCode#0;class#Tunnel#0" expanded="false" />
-            <element signature="method#toString#0;class#Tunnel#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/tunnel/exceptions/DataLoadException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="method#DataLoadException#0;class#DataLoadException#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/tunnel/util/LineParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="77" lean-forward="false" selection-start-line="18" selection-start-column="77" selection-end-line="18" selection-end-column="77" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -965,7 +757,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -973,7 +764,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="118">
           <caret line="202" column="0" lean-forward="false" selection-start-line="202" selection-start-column="0" selection-end-line="202" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -984,64 +774,6 @@
           <folding>
             <element signature="method#exceptionParameters#0;class#DataProviderSource#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/tunnel/util/data/DataValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="25" column="25" lean-forward="false" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1713#1714#0" expanded="true" />
-            <element signature="e#1768#1769#0" expanded="true" />
-            <element signature="method#checkParameter#0;class#DataValidator#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/by/epam/tunnel/util/creator/TrainCreatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="19" column="45" lean-forward="true" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#incorrectParameters#0;class#TrainCreatorTest#0" expanded="false" />
-            <element signature="method#shouldCreationBeSuccessful#0;class#TrainCreatorTest#0" expanded="false" />
-            <element signature="method#shouldTrainsBeDifferent#0;class#TrainCreatorTest#0" expanded="false" />
-            <element signature="e#1937#1985#0" expanded="false" />
-            <element signature="method#shouldCreationCauseIllegalArgumentException#0;class#TrainCreatorTest#0" expanded="false" />
-            <element signature="method#shouldCreationCauseIncorrectArgumentException#0;class#TrainCreatorTest#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/tunnel/util/creator/TrainCreator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#createTrain#0;class#TrainCreator#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/tunnel/exceptions/IncorrectParameterException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="method#IncorrectParameterException#0;class#IncorrectParameterException#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/tunnel/util/data/DataLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1060,19 +792,117 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/trainstates/TrainApproachingTunnelState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="method#TrainApproachingTunnelState#0;class#TrainApproachingTunnelState#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/trainstates/TrainArrivedState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="17" column="4" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+          <folding>
+            <element signature="method#TrainArrivedState#0;class#TrainArrivedState#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/trainstates/TrainDepartedState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="method#TrainDepartedState#0;class#TrainDepartedState#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/trainstates/TrainDroveInTunnelState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="method#TrainDroveInTunnelState#0;class#TrainDroveInTunnelState#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/trainstates/TrainDroveOutTunnelState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="method#TrainDroveOutTunnelState#0;class#TrainDroveOutTunnelState#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/trainstates/TrainState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/trainstates/TrainWaitState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="method#TrainWaitState#0;class#TrainWaitState#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/epam/tunnel/util/creator/TrainCreatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding>
+            <element signature="method#shouldCreationBeSuccessful#0;class#TrainCreatorTest#0" expanded="false" />
+            <element signature="method#shouldTrainsBeDifferent#0;class#TrainCreatorTest#0" expanded="false" />
+            <element signature="e#1250#1298#0" expanded="false" />
+            <element signature="method#shouldCreationCauseIllegalArgumentException#0;class#TrainCreatorTest#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/data.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="39" lean-forward="true" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+        <state relative-caret-position="374">
+          <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/log.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/Direction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/Train.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+        <state relative-caret-position="476">
+          <caret line="84" column="29" lean-forward="false" selection-start-line="84" selection-start-column="29" selection-end-line="84" selection-end-column="29" />
           <folding>
+            <element signature="method#Train#0;class#Train#0" expanded="false" />
             <element signature="method#run#0;class#Train#0" expanded="false" />
             <element signature="method#move#0;class#Train#0" expanded="false" />
             <element signature="method#setTrainState#0;class#Train#0" expanded="false" />
@@ -1082,30 +912,107 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/tunnel/run/TunnelRunner.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/TrainStationDispatcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        <state relative-caret-position="330">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#TrainStationDispatcher#0;class#TrainStationDispatcher#0" expanded="false" />
+            <element signature="method#getInstance#0;class#TrainStationDispatcher#0" expanded="false" />
+            <element signature="method#guideTrainToTunnel#0;class#TrainStationDispatcher#0" expanded="false" />
+            <element signature="method#observeTunnel#0;class#TrainStationDispatcher#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/logs/log.txt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/Tunnel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="6" column="63" lean-forward="false" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
+        <state relative-caret-position="344">
+          <caret line="105" column="13" lean-forward="false" selection-start-line="105" selection-start-column="13" selection-end-line="105" selection-end-column="13" />
+          <folding>
+            <element signature="method#Tunnel#0;class#Tunnel#0" expanded="false" />
+            <element signature="method#trainDroveIn#0;class#Tunnel#0" expanded="false" />
+            <element signature="method#trainDroveOut#0;class#Tunnel#0" expanded="false" />
+            <element signature="method#trainWait#0;class#Tunnel#0" expanded="false" />
+            <element signature="method#checkTunnelDirection#0;class#Tunnel#0" expanded="false" />
+            <element signature="method#equals#0;class#Tunnel#0" expanded="false" />
+            <element signature="method#hashCode#0;class#Tunnel#0" expanded="false" />
+            <element signature="method#toString#0;class#Tunnel#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/tunnel/exceptions/IncorrectParameterException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/tunnel/run/TrainDirector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="53" column="17" lean-forward="true" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
+        <state relative-caret-position="187">
+          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#getTrainsFromFile#0;class#TrainDirector#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/tunnel/run/TunnelRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/tunnel/util/creator/TrainCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="50" lean-forward="false" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+          <folding>
+            <element signature="method#createTrain#0;class#TrainCreator#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/tunnel/util/data/DataLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="12" column="83" lean-forward="false" selection-start-line="12" selection-start-column="83" selection-end-line="12" selection-end-column="83" />
+          <folding>
+            <element signature="method#loadDataFromFile#0;class#DataLoader#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/tunnel/util/data/DataValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" column="56" lean-forward="false" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
+          <folding>
+            <element signature="method#checkParameters#0;class#DataValidator#0" expanded="false" />
+            <element signature="method#checkParameter#0;class#DataValidator#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/tunnel/util/ConsoleHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/tunnel/util/LineParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="method#parseLine#0;class#LineParser#0" expanded="false" />
           </folding>
         </state>
       </provider>

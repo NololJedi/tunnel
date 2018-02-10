@@ -16,4 +16,5 @@ public class TrainDroveInTunnelState implements TrainState {
     public long move() {
         return SPEED_IN_TUNNEL;
     }
+
 }

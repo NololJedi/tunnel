@@ -16,13 +16,13 @@ public class TunnelRunner {
         TrainDirector trainDirector = new TrainDirector();
         List<Train> trains = trainDirector.getTrainsFromFile(TrainDirector.FILE_NAME);
 
-//        if (trains != null || trains.size() != 0){
-//            for (Train train : trains) {
-//                //train.start();
-//            }
-//        } else {
-//            LOGGER.info("No trains were detected.");
-//        }
-
+        if (trains != null && trains.size() != 0) {
+            for (Train train : trains) {
+                train.start();
+            }
+        } else {
+            LOGGER.info("No trains were detected.");
+        }
     }
+
 }
