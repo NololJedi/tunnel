@@ -3,22 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2b79cd6a-7eb1-4846-b494-390a2877f875" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/logs/log.txt" afterPath="$PROJECT_DIR$/logs/log.txt" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/Train.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/Train.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/TrainStationDispatcher.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/TrainStationDispatcher.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/Tunnel.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/Tunnel.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/trainstates/TrainApproachingTunnelState.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/trainstates/TrainApproachingTunnelState.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/trainstates/TrainArrivedState.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/trainstates/TrainArrivedState.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/trainstates/TrainDepartedState.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/trainstates/TrainDepartedState.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/trainstates/TrainDroveInTunnelState.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/trainstates/TrainDroveInTunnelState.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/trainstates/TrainDroveOutTunnelState.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/trainstates/TrainDroveOutTunnelState.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/trainstates/TrainWaitState.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/tunnel/entities/trainstates/TrainWaitState.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/tunnel/exceptions/IncorrectParameterException.java" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/tunnel/run/TrainDirector.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/tunnel/run/TrainDirector.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/tunnel/run/TunnelRunner.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/tunnel/run/TunnelRunner.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/tunnel/util/creator/TrainCreator.java" afterPath="$PROJECT_DIR$/src/main/java/by/epam/tunnel/util/creator/TrainCreator.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data.txt" afterPath="$PROJECT_DIR$/src/main/resources/data.txt" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/by/epam/tunnel/util/creator/TrainCreatorTest.java" afterPath="$PROJECT_DIR$/src/test/java/by/epam/tunnel/util/creator/TrainCreatorTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,20 +16,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="LineParser.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/tunnel/util/LineParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding>
-                <element signature="method#parseLine#0;class#LineParser#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -117,9 +90,9 @@
         <option value="$PROJECT_DIR$/src/main/java/by/epam/tunnel/util/creator/TrainCreator.java" />
         <option value="$PROJECT_DIR$/src/test/java/by/epam/tunnel/util/creator/TrainCreatorTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/data.txt" />
-        <option value="$PROJECT_DIR$/logs/log.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/by/epam/tunnel/run/TrainDirector.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/epam/tunnel/run/TunnelRunner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/epam/tunnel/run/TrainDirector.java" />
+        <option value="$PROJECT_DIR$/logs/log.txt" />
       </list>
     </option>
   </component>
@@ -160,7 +133,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -172,9 +148,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -438,7 +411,8 @@
       <workItem from="1518033948055" duration="436000" />
       <workItem from="1518110393557" duration="10448000" />
       <workItem from="1518197558126" duration="10577000" />
-      <workItem from="1518257173065" duration="2643000" />
+      <workItem from="1518257173065" duration="2742000" />
+      <workItem from="1518263404510" duration="421000" />
     </task>
     <task id="LOCAL-00001" summary="First changes.">
       <created>1517836922457</created>
@@ -475,7 +449,14 @@
       <option name="project" value="LOCAL" />
       <updated>1518208407684</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Finished.">
+      <created>1518263122782</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1518263122782</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -511,11 +492,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54566000" />
+    <option name="totallyTimeSpent" value="55086000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -526,11 +506,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28035983" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27265626" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27265626" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -557,7 +537,8 @@
     <MESSAGE value="Need some changes in Tunnel.class, Train.class, TrainState.class." />
     <MESSAGE value="Finish soon." />
     <MESSAGE value="Finish soon. Need some changes." />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish soon. Need some changes." />
+    <MESSAGE value="Finished." />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -570,16 +551,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#Tunnel#0;class#Tunnel#0" expanded="false" />
-            <element signature="method#trainDroveIn#0;class#Tunnel#0" expanded="false" />
-            <element signature="method#trainDroveOut#0;class#Tunnel#0" expanded="false" />
-            <element signature="method#trainWait#0;class#Tunnel#0" expanded="false" />
-            <element signature="method#checkTunnelDirection#0;class#Tunnel#0" expanded="false" />
-            <element signature="method#equals#0;class#Tunnel#0" expanded="false" />
-            <element signature="method#hashCode#0;class#Tunnel#0" expanded="false" />
-            <element signature="method#toString#0;class#Tunnel#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -587,7 +558,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="23" lean-forward="false" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-          <folding />
+          <folding>
+            <element signature="method#main#0;class#TunnelRunner#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -595,16 +568,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="697">
           <caret line="58" column="34" lean-forward="false" selection-start-line="58" selection-start-column="34" selection-end-line="58" selection-end-column="34" />
-          <folding>
-            <element signature="method#Tunnel#0;class#Tunnel#0" expanded="false" />
-            <element signature="method#trainDroveIn#0;class#Tunnel#0" expanded="false" />
-            <element signature="method#trainDroveOut#0;class#Tunnel#0" expanded="false" />
-            <element signature="method#trainWait#0;class#Tunnel#0" expanded="false" />
-            <element signature="method#checkTunnelDirection#0;class#Tunnel#0" expanded="false" />
-            <element signature="method#equals#0;class#Tunnel#0" expanded="false" />
-            <element signature="method#hashCode#0;class#Tunnel#0" expanded="false" />
-            <element signature="method#toString#0;class#Tunnel#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -612,13 +575,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <element signature="method#run#0;class#Train#0" expanded="false" />
-            <element signature="method#move#0;class#Train#0" expanded="false" />
-            <element signature="method#setTrainState#0;class#Train#0" expanded="false" />
-            <element signature="method#equals#0;class#Train#0" expanded="false" />
-            <element signature="method#toString#0;class#Train#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -626,12 +582,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="32" lean-forward="false" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
-          <folding>
-            <element signature="method#TrainStationDispatcher#0;class#TrainStationDispatcher#0" expanded="false" />
-            <element signature="method#getInstance#0;class#TrainStationDispatcher#0" expanded="false" />
-            <element signature="method#guideTrainToTunnel#0;class#TrainStationDispatcher#0" expanded="false" />
-            <element signature="method#observeTunnel#0;class#TrainStationDispatcher#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -639,7 +589,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="27" lean-forward="false" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
-          <folding />
+          <folding>
+            <element signature="method#main#0;class#TunnelRunner#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -647,16 +599,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="697">
           <caret line="58" column="34" lean-forward="false" selection-start-line="58" selection-start-column="34" selection-end-line="58" selection-end-column="34" />
-          <folding>
-            <element signature="method#Tunnel#0;class#Tunnel#0" expanded="false" />
-            <element signature="method#trainDroveIn#0;class#Tunnel#0" expanded="false" />
-            <element signature="method#trainDroveOut#0;class#Tunnel#0" expanded="false" />
-            <element signature="method#trainWait#0;class#Tunnel#0" expanded="false" />
-            <element signature="method#checkTunnelDirection#0;class#Tunnel#0" expanded="false" />
-            <element signature="method#equals#0;class#Tunnel#0" expanded="false" />
-            <element signature="method#hashCode#0;class#Tunnel#0" expanded="false" />
-            <element signature="method#toString#0;class#Tunnel#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -664,13 +606,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <element signature="method#run#0;class#Train#0" expanded="false" />
-            <element signature="method#move#0;class#Train#0" expanded="false" />
-            <element signature="method#setTrainState#0;class#Train#0" expanded="false" />
-            <element signature="method#equals#0;class#Train#0" expanded="false" />
-            <element signature="method#toString#0;class#Train#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -678,12 +613,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="32" lean-forward="false" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
-          <folding>
-            <element signature="method#TrainStationDispatcher#0;class#TrainStationDispatcher#0" expanded="false" />
-            <element signature="method#getInstance#0;class#TrainStationDispatcher#0" expanded="false" />
-            <element signature="method#guideTrainToTunnel#0;class#TrainStationDispatcher#0" expanded="false" />
-            <element signature="method#observeTunnel#0;class#TrainStationDispatcher#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -691,7 +620,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="27" lean-forward="true" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
-          <folding />
+          <folding>
+            <element signature="method#main#0;class#TunnelRunner#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -739,17 +670,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="89">
           <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="method#incorrectInputParameter#0;class#LineParserTest#0" expanded="false" />
-            <element signature="method#shouldDataParsingBeSuccessful#0;class#LineParserTest#0" expanded="false" />
-            <element signature="method#shouldDataParsingBeNotSuccessful#0;class#LineParserTest#0" expanded="false" />
-            <element signature="method#shouldValueParsingBeSuccessful#0;class#LineParserTest#0" expanded="false" />
-            <element signature="method#shouldValueParsingBeNotSuccessful#0;class#LineParserTest#0" expanded="false" />
-            <element signature="e#2210#2258#0" expanded="false" />
-            <element signature="method#shouldIncorrectLineCauseException#0;class#LineParserTest#0" expanded="false" />
-            <element signature="e#2453#2501#0" expanded="false" />
-            <element signature="method#shouldIncorrectParserIndicatorCauseException#0;class#LineParserTest#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -771,9 +691,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="method#exceptionParameters#0;class#DataProviderSource#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -781,14 +698,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-          <folding>
-            <element signature="method#incorrectParameters#0;class#DataValidatorTest#0" expanded="false" />
-            <element signature="e#1927#1932#0" expanded="false" />
-            <element signature="method#shouldValidationBeSuccessful#0;class#DataValidatorTest#0" expanded="false" />
-            <element signature="e#2212#2217#0" expanded="false" />
-            <element signature="method#shouldValidationBeNotSuccessful#0;class#DataValidatorTest#0" expanded="false" />
-            <element signature="method#shouldIncorrectParametersCauseException#0;class#DataValidatorTest#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -796,9 +705,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="method#TrainApproachingTunnelState#0;class#TrainApproachingTunnelState#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -806,9 +712,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="17" column="4" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
-          <folding>
-            <element signature="method#TrainArrivedState#0;class#TrainArrivedState#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -816,9 +719,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="method#TrainDepartedState#0;class#TrainDepartedState#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -826,9 +726,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="method#TrainDroveInTunnelState#0;class#TrainDroveInTunnelState#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -836,9 +733,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="method#TrainDroveOutTunnelState#0;class#TrainDroveOutTunnelState#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -846,7 +740,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -854,9 +747,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="method#TrainWaitState#0;class#TrainWaitState#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -864,12 +754,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding>
-            <element signature="method#shouldCreationBeSuccessful#0;class#TrainCreatorTest#0" expanded="false" />
-            <element signature="method#shouldTrainsBeDifferent#0;class#TrainCreatorTest#0" expanded="false" />
-            <element signature="e#1250#1298#0" expanded="false" />
-            <element signature="method#shouldCreationCauseIllegalArgumentException#0;class#TrainCreatorTest#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -877,15 +761,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/log.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -893,7 +768,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -901,14 +775,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="84" column="29" lean-forward="false" selection-start-line="84" selection-start-column="29" selection-end-line="84" selection-end-column="29" />
-          <folding>
-            <element signature="method#Train#0;class#Train#0" expanded="false" />
-            <element signature="method#run#0;class#Train#0" expanded="false" />
-            <element signature="method#move#0;class#Train#0" expanded="false" />
-            <element signature="method#setTrainState#0;class#Train#0" expanded="false" />
-            <element signature="method#equals#0;class#Train#0" expanded="false" />
-            <element signature="method#toString#0;class#Train#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -916,12 +782,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding>
-            <element signature="method#TrainStationDispatcher#0;class#TrainStationDispatcher#0" expanded="false" />
-            <element signature="method#getInstance#0;class#TrainStationDispatcher#0" expanded="false" />
-            <element signature="method#guideTrainToTunnel#0;class#TrainStationDispatcher#0" expanded="false" />
-            <element signature="method#observeTunnel#0;class#TrainStationDispatcher#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -929,45 +789,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="344">
           <caret line="105" column="13" lean-forward="false" selection-start-line="105" selection-start-column="13" selection-end-line="105" selection-end-column="13" />
-          <folding>
-            <element signature="method#Tunnel#0;class#Tunnel#0" expanded="false" />
-            <element signature="method#trainDroveIn#0;class#Tunnel#0" expanded="false" />
-            <element signature="method#trainDroveOut#0;class#Tunnel#0" expanded="false" />
-            <element signature="method#trainWait#0;class#Tunnel#0" expanded="false" />
-            <element signature="method#checkTunnelDirection#0;class#Tunnel#0" expanded="false" />
-            <element signature="method#equals#0;class#Tunnel#0" expanded="false" />
-            <element signature="method#hashCode#0;class#Tunnel#0" expanded="false" />
-            <element signature="method#toString#0;class#Tunnel#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/tunnel/exceptions/IncorrectParameterException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/tunnel/run/TrainDirector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
-          <folding>
-            <element signature="method#getTrainsFromFile#0;class#TrainDirector#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/tunnel/run/TunnelRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/tunnel/exceptions/IncorrectParameterException.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/tunnel/util/creator/TrainCreator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -982,9 +807,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="12" column="83" lean-forward="false" selection-start-line="12" selection-start-column="83" selection-end-line="12" selection-end-column="83" />
-          <folding>
-            <element signature="method#loadDataFromFile#0;class#DataLoader#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -992,10 +814,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="16" column="56" lean-forward="false" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
-          <folding>
-            <element signature="method#checkParameters#0;class#DataValidator#0" expanded="false" />
-            <element signature="method#checkParameter#0;class#DataValidator#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1003,17 +821,44 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/tunnel/util/LineParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="136">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
             <element signature="method#parseLine#0;class#LineParser#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/tunnel/run/TunnelRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="method#main#0;class#TunnelRunner#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/tunnel/run/TrainDirector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="20" column="58" lean-forward="false" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
+          <folding>
+            <element signature="method#getTrainsFromFile#0;class#TrainDirector#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/log.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

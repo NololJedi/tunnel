@@ -33,10 +33,9 @@ public class TrainDirector {
             LOGGER.warn(String.format("Can't load data from file - %s.", fileName));
         }
 
-        if (data == null) {
+        if (data == null || data.size() == 0) {
             LOGGER.info("Data wasn't loaded.");
-
-            return null;
+            throw new IllegalArgumentException("Data is empty");
         } else {
             LOGGER.info("Data was loaded successful.");
         }
@@ -64,10 +63,12 @@ public class TrainDirector {
             }
         }
 
-        if (trains.size() != 0) {
-            LOGGER.info("Trains were created successfully.");
+        if (trains.size() == 0) {
+            LOGGER.info("Trains were not created.");
+            throw new IllegalArgumentException("Trains are empty.");
         }
 
+        LOGGER.info("Trains were created successfully.");
         return trains;
     }
 
